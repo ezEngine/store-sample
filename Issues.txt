@@ -1,0 +1,4 @@
+kill process -> may not get back up, if scene / mesh open
+Katana convex hull generation fails
+character controller can't slide along bed
+modern ceiling lamp crashes editor
