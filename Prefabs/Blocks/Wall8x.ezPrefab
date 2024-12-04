@@ -21,7 +21,7 @@ o
 		s %AssetType{"Prefab"}
 		VarArray %Dependencies{}
 		Uuid %DocumentID{u4{8047029703967090588,5514983761808144677}}
-		u4 %Hash{1528417555320571580}
+		u4 %Hash{12179586794208333581}
 		VarArray %MetaInfo
 		{
 			Uuid{u4{2636825694399219858,988645298550095202}}
@@ -45,11 +45,12 @@ o
 {
 	Uuid %id{u4{5515345223504509065,4822971979467908432}}
 	s %t{"ezOccluderComponent"}
-	u3 %v{1}
+	u3 %v{2}
 	p
 	{
 		b %Active{1}
 		Vec3 %Extents{f{0xCDCC4C3F,0x00000041,0x00000041}}
+		s %Type{"ezOccluderType::QuadPosX"}
 	}
 }
 o
@@ -287,7 +288,7 @@ o
 		s %PluginName{"Static"}
 		VarArray %Properties{}
 		s %TypeName{"ezOccluderComponent"}
-		u3 %TypeVersion{1}
+		u3 %TypeVersion{2}
 	}
 }
 o
@@ -1011,6 +1012,23 @@ o
 	p
 	{
 		s %DynamicEnum{"PhysicsCollisionLayer"}
+	}
+}
+o
+{
+	Uuid %id{u4{7132236028726281730,16043527461362255876}}
+	s %t{"ezReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"ezTypeFlags::IsEnum|ezTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"ezEnumBase"}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"ezOccluderType"}
+		u3 %TypeVersion{1}
 	}
 }
 o
