@@ -11,7 +11,7 @@ o
 		s %AssetType{"Scene"}
 		VarArray %Dependencies{}
 		Uuid %DocumentID{u4{18126703523604283194,10523437713074678858}}
-		u4 %Hash{7701970364532557233}
+		u4 %Hash{18110255422450384686}
 		VarArray %MetaInfo{}
 		VarArray %Outputs{}
 		VarArray %PackageDeps
@@ -195,7 +195,7 @@ o
 		Vec3 %LocalScaling{f{0x0000803F,0x0000803F,0x0000803F}}
 		f %LocalUniformScaling{0x0000803F}
 		s %Mode{"ezObjectMode::Automatic"}
-		s %Name{""}
+		s %Name{"Duck Light"}
 		VarArray %Tags
 		{
 			s{"CastShadow"}
@@ -218,7 +218,7 @@ o
 		ColorGamma %LightColor{u1{255,255,255,255}}
 		Angle %OuterSpotAngle{f{0xC2B8B23F}}
 		f %PenumbraSize{0xCDCCCC3D}
-		f %Range{0}
+		f %Range{0x00000041}
 		f %ShadowFadeOutRange{0}
 		f %SlopeBias{0x0000803E}
 		f %SpecularMultiplier{0x0000803F}

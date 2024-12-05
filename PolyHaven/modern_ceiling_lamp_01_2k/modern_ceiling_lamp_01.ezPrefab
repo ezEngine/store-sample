@@ -11,7 +11,7 @@ o
 		s %AssetType{"Prefab"}
 		VarArray %Dependencies{}
 		Uuid %DocumentID{u4{12474194853227665320,4998714210231207887}}
-		u4 %Hash{10526286400439946106}
+		u4 %Hash{4941231016514108768}
 		VarArray %MetaInfo
 		{
 			Uuid{u4{4087004231316682407,7556678318556788354}}
@@ -46,7 +46,7 @@ o
 {
 	Uuid %id{u4{1079744455974487308,95830379461467749}}
 	s %t{"ezPointLightComponent"}
-	u3 %v{2}
+	u3 %v{3}
 	p
 	{
 		b %Active{1}
@@ -84,7 +84,7 @@ o
 		Vec3 %LocalScaling{f{0x0000803F,0x0000803F,0x0000803F}}
 		f %LocalUniformScaling{0x0000803F}
 		s %Mode{"ezObjectMode::Automatic"}
-		s %Name{""}
+		s %Name{"CeilingLamp"}
 		VarArray %Tags
 		{
 			s{"CastShadow"}
@@ -611,7 +611,7 @@ o
 		s %PluginName{"Static"}
 		VarArray %Properties{}
 		s %TypeName{"ezPointLightComponent"}
-		u3 %TypeVersion{2}
+		u3 %TypeVersion{3}
 	}
 }
 o
@@ -733,7 +733,7 @@ o
 		s %PluginName{"Static"}
 		VarArray %Properties{}
 		s %TypeName{"ezLightComponent"}
-		u3 %TypeVersion{7}
+		u3 %TypeVersion{6}
 	}
 }
 o
