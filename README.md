@@ -4,7 +4,7 @@ A sample project for [ezEngine](https://github.com/ezEngine/ezEngine) that demon
 
 ![Thumbnail](Thumbnail.jpg)
 
-* The 'Store' scene demonstrates the use of many assets.
+* The 'Main' scene demonstrates the use of many assets.
 * The 'ObjectZoo' scene is used to inspect all available assets.
 * Some prefabs use random object placement to add variaty.
 * When 'playing' you can only walk around and pick small objects up with the 'E' key, there is currently no gameplay in this sample.
