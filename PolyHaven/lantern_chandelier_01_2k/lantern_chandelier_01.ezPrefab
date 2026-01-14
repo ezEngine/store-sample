@@ -11,7 +11,7 @@ o
 		s %AssetType{"Prefab"}
 		VarArray %Dependencies{}
 		Uuid %DocumentID{u4{9122124554952382353,4982590422048462821}}
-		u4 %Hash{16607130654416940255}
+		u4 %Hash{4145069758405594956}
 		VarArray %MetaInfo
 		{
 			Uuid{u4{11847232016534796260,12193632572264645941}}
@@ -45,7 +45,7 @@ o
 {
 	Uuid %id{u4{15528579062676547835,259629706787926323}}
 	s %t{"ezPointLightComponent"}
-	u3 %v{2}
+	u3 %v{3}
 	p
 	{
 		b %Active{1}
@@ -414,7 +414,7 @@ o
 		s %PluginName{"Static"}
 		VarArray %Properties{}
 		s %TypeName{"ezPointLightComponent"}
-		u3 %TypeVersion{2}
+		u3 %TypeVersion{3}
 	}
 }
 o
@@ -482,7 +482,7 @@ o
 		s %PluginName{"Static"}
 		VarArray %Properties{}
 		s %TypeName{"ezLightComponent"}
-		u3 %TypeVersion{7}
+		u3 %TypeVersion{6}
 	}
 }
 o

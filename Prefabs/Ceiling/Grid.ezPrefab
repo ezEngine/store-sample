@@ -21,7 +21,7 @@ o
 		s %AssetType{"Prefab"}
 		VarArray %Dependencies{}
 		Uuid %DocumentID{u4{628324932500887216,5249850718063696559}}
-		u4 %Hash{10705540954011585114}
+		u4 %Hash{17793903130401073804}
 		VarArray %MetaInfo
 		{
 			Uuid{u4{993385333350972645,4724518432408826843}}
@@ -54,7 +54,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 216b7e7a-4520-4054-9623-5e10a563d2d6 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x00000040}
@@ -108,7 +107,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 216b7e7a-4520-4054-9623-5e10a563d2d6 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x00000040}
@@ -162,7 +160,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 216b7e7a-4520-4054-9623-5e10a563d2d6 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x00000040}
@@ -190,7 +187,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 216b7e7a-4520-4054-9623-5e10a563d2d6 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x00000040}
@@ -270,7 +266,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 216b7e7a-4520-4054-9623-5e10a563d2d6 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x00000040}
@@ -386,20 +381,24 @@ o
 {
 	Uuid %id{u4{17786202236507569799,5706841245343121373}}
 	s %t{"ezSpotLightComponent"}
-	u3 %v{2}
+	u3 %v{4}
 	p
 	{
 		b %Active{1}
 		b %CastShadows{0}
 		f %ConstantBias{0xCDCCCC3D}
+		s %Cookie{""}
 		ColorGamma %EffectiveColor{u1{255,255,255,255}}
 		Angle %InnerSpotAngle{f{0xC2B8323F}}
 		f %Intensity{0x00004842}
 		ColorGamma %LightColor{u1{255,255,255,255}}
+		s %Material{""}
+		u3 %MaterialResolution{512}
+		Time %MaterialUpdateInterval{d{0}}
 		Angle %OuterSpotAngle{f{0x920A863F}}
 		f %PenumbraSize{0xCDCCCC3D}
 		f %Range{0x00007041}
-		f %ShadowMultiplier{0x0000803F}
+		f %ShadowFadeOutRange{0}
 		f %SlopeBias{0x0000803E}
 		f %SpecularMultiplier{0x0000803F}
 		u3 %Temperature{6223}
@@ -435,7 +434,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 216b7e7a-4520-4054-9623-5e10a563d2d6 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x00000040}
@@ -516,7 +514,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 216b7e7a-4520-4054-9623-5e10a563d2d6 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x00000040}
@@ -544,7 +541,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 216b7e7a-4520-4054-9623-5e10a563d2d6 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x00000040}
@@ -624,7 +620,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 216b7e7a-4520-4054-9623-5e10a563d2d6 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x00000040}
@@ -652,7 +647,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 216b7e7a-4520-4054-9623-5e10a563d2d6 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x00000040}
@@ -1025,7 +1019,7 @@ o
 		s %PluginName{"Static"}
 		VarArray %Properties{}
 		s %TypeName{"ezSpotLightComponent"}
-		u3 %TypeVersion{2}
+		u3 %TypeVersion{4}
 	}
 }
 o
@@ -1076,7 +1070,7 @@ o
 		s %PluginName{"Static"}
 		VarArray %Properties{}
 		s %TypeName{"ezLightComponent"}
-		u3 %TypeVersion{7}
+		u3 %TypeVersion{6}
 	}
 }
 o

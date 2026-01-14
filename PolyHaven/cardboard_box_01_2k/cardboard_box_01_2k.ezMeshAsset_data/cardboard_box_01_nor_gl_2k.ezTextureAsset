@@ -14,10 +14,18 @@ o
 			s{"PolyHaven/cardboard_box_01_2k/textures/cardboard_box_01_nor_gl_2k.jpg"}
 		}
 		Uuid %DocumentID{u4{6635012338233631875,4701856557038706294}}
-		u4 %Hash{11090965008556622030}
+		u4 %Hash{16164681443169080715}
 		VarArray %MetaInfo{}
-		VarArray %Outputs{}
-		VarArray %References{}
+		VarArray %Outputs
+		{
+			s{"LOWRES"}
+		}
+		VarArray %PackageDeps{}
+		VarArray %References
+		{
+			s{"PolyHaven/cardboard_box_01_2k/textures/cardboard_box_01_nor_gl_2k.jpg"}
+		}
+		s %Tags{""}
 	}
 }
 }

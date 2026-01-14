@@ -14,10 +14,18 @@ o
 			s{"Free3D/Metal_Water_Tank/textures/water_tank_col.png"}
 		}
 		Uuid %DocumentID{u4{1665512582837862283,5754288531171440606}}
-		u4 %Hash{14205742536316638212}
+		u4 %Hash{17928770191884113033}
 		VarArray %MetaInfo{}
-		VarArray %Outputs{}
-		VarArray %References{}
+		VarArray %Outputs
+		{
+			s{"LOWRES"}
+		}
+		VarArray %PackageDeps{}
+		VarArray %References
+		{
+			s{"Free3D/Metal_Water_Tank/textures/water_tank_col.png"}
+		}
+		s %Tags{""}
 	}
 }
 }

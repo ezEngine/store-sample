@@ -14,7 +14,7 @@ o
 			s{"PolyHaven/Lantern_01_1k/textures/Lantern_01_brass_arm_1k.jpg"}
 		}
 		Uuid %DocumentID{u4{10000814869482937754,4976272503468681373}}
-		u4 %Hash{13829911466644694726}
+		u4 %Hash{250167665735276395}
 		VarArray %MetaInfo{}
 		VarArray %Outputs
 		{

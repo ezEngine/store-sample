@@ -11,7 +11,7 @@ o
 		s %AssetType{"Jolt_Colmesh_Convex"}
 		VarArray %Dependencies{}
 		Uuid %DocumentID{u4{18345334139235906953,5056619727936520501}}
-		u4 %Hash{15456783978079743188}
+		u4 %Hash{2889555622721685698}
 		VarArray %MetaInfo{}
 		VarArray %Outputs{}
 		VarArray %PackageDeps
@@ -32,7 +32,7 @@ o
 {
 	Uuid %id{u4{9885647365780766863,4998478159278591755}}
 	s %t{"ezJoltCollisionMeshAssetProperties"}
-	u3 %v{1}
+	u3 %v{2}
 	p
 	{
 		b %AggressiveSimplification{0}
@@ -40,10 +40,13 @@ o
 		u1 %Detail{1}
 		b %FlipForwardDir{1}
 		f %Height{0x0000803F}
+		s %ImportTransform{"ezMeshImportTransform::Custom"}
 		b %IsConvexMesh{1}
 		u2 %MaxConvexPieces{4}
 		u1 %MaxSimplificationError{20}
+		s %MeshExcludeTags{""}
 		s %MeshFile{"PolyHaven/sofa_03_2k/sofa_03_2k.gltf"}
+		s %MeshIncludeTags{""}
 		u1 %MeshSimplification{50}
 		f %Radius{0x0000003F}
 		f %Radius2{0x0000003F}
@@ -148,7 +151,7 @@ o
 		s %PluginName{"ezEditorPluginJolt"}
 		VarArray %Properties{}
 		s %TypeName{"ezJoltCollisionMeshAssetProperties"}
-		u3 %TypeVersion{1}
+		u3 %TypeVersion{2}
 	}
 }
 o
@@ -165,6 +168,23 @@ o
 		s %PluginName{"Static"}
 		VarArray %Properties{}
 		s %TypeName{"ezDocumentRoot"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{16959510582460493866,8962221111705621108}}
+	s %t{"ezReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"ezTypeFlags::IsEnum|ezTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"ezEnumBase"}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"ezMeshImportTransform"}
 		u3 %TypeVersion{1}
 	}
 }

@@ -14,10 +14,18 @@ o
 			s{"PolyHaven/pot_enamel_01_2k/textures/pot_enamel_01_diff_2k.jpg"}
 		}
 		Uuid %DocumentID{u4{7887431944732351413,4926746572362560290}}
-		u4 %Hash{9482731124486090649}
+		u4 %Hash{3363311366331664238}
 		VarArray %MetaInfo{}
-		VarArray %Outputs{}
-		VarArray %References{}
+		VarArray %Outputs
+		{
+			s{"LOWRES"}
+		}
+		VarArray %PackageDeps{}
+		VarArray %References
+		{
+			s{"PolyHaven/pot_enamel_01_2k/textures/pot_enamel_01_diff_2k.jpg"}
+		}
+		s %Tags{""}
 	}
 }
 }

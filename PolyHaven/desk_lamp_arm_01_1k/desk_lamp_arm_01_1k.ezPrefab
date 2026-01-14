@@ -11,7 +11,7 @@ o
 		s %AssetType{"Prefab"}
 		VarArray %Dependencies{}
 		Uuid %DocumentID{u4{12065868339091412515,10785122855756166981}}
-		u4 %Hash{9614818492108330061}
+		u4 %Hash{9603929488823029424}
 		VarArray %MetaInfo
 		{
 			Uuid{u4{4936768281029123327,18199684747347052140}}
@@ -45,16 +45,20 @@ o
 {
 	Uuid %id{u4{10441799695364053913,4776079154832554952}}
 	s %t{"ezSpotLightComponent"}
-	u3 %v{2}
+	u3 %v{4}
 	p
 	{
 		b %Active{1}
 		b %CastShadows{1}
 		f %ConstantBias{0xCDCCCC3D}
+		s %Cookie{""}
 		ColorGamma %EffectiveColor{u1{255,255,255,255}}
 		Angle %InnerSpotAngle{f{0x920A863E}}
 		f %Intensity{0x0000A041}
 		ColorGamma %LightColor{u1{255,255,255,255}}
+		s %Material{""}
+		u3 %MaterialResolution{512}
+		Time %MaterialUpdateInterval{d{0}}
 		Angle %OuterSpotAngle{f{0xAA619C3F}}
 		f %PenumbraSize{0xCDCCCC3D}
 		f %Range{0x00004040}
@@ -468,7 +472,7 @@ o
 		s %PluginName{"Static"}
 		VarArray %Properties{}
 		s %TypeName{"ezSpotLightComponent"}
-		u3 %TypeVersion{2}
+		u3 %TypeVersion{4}
 	}
 }
 o
@@ -502,7 +506,7 @@ o
 		s %PluginName{"Static"}
 		VarArray %Properties{}
 		s %TypeName{"ezLightComponent"}
-		u3 %TypeVersion{7}
+		u3 %TypeVersion{6}
 	}
 }
 o

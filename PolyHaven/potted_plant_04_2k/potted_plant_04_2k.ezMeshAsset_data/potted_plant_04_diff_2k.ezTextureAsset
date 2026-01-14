@@ -14,10 +14,18 @@ o
 			s{"PolyHaven/potted_plant_04_2k/textures/potted_plant_04_diff_2k.jpg"}
 		}
 		Uuid %DocumentID{u4{10384411103891884435,4957384716219707868}}
-		u4 %Hash{6744375930854420314}
+		u4 %Hash{6217863808633723420}
 		VarArray %MetaInfo{}
-		VarArray %Outputs{}
-		VarArray %References{}
+		VarArray %Outputs
+		{
+			s{"LOWRES"}
+		}
+		VarArray %PackageDeps{}
+		VarArray %References
+		{
+			s{"PolyHaven/potted_plant_04_2k/textures/potted_plant_04_diff_2k.jpg"}
+		}
+		s %Tags{""}
 	}
 }
 }

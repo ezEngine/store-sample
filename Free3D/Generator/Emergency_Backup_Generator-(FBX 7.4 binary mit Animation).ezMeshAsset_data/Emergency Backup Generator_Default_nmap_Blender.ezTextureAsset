@@ -14,10 +14,18 @@ o
 			s{"Free3D/Generator/Emergency Backup Generator_Default_nmap_Blender.jpg"}
 		}
 		Uuid %DocumentID{u4{1474034905851186306,5213682777185782610}}
-		u4 %Hash{2757959347580878015}
+		u4 %Hash{7144695948731558398}
 		VarArray %MetaInfo{}
-		VarArray %Outputs{}
-		VarArray %References{}
+		VarArray %Outputs
+		{
+			s{"LOWRES"}
+		}
+		VarArray %PackageDeps{}
+		VarArray %References
+		{
+			s{"Free3D/Generator/Emergency Backup Generator_Default_nmap_Blender.jpg"}
+		}
+		s %Tags{""}
 	}
 }
 }

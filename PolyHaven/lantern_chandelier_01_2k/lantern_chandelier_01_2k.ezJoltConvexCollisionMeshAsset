@@ -11,16 +11,22 @@ o
 		s %AssetType{"Jolt_Colmesh_Convex"}
 		VarArray %Dependencies
 		{
+			s{"PolyHaven/lantern_chandelier_01_2k/lantern_chandelier_01.bin"}
 			s{"PolyHaven/lantern_chandelier_01_2k/lantern_chandelier_01_2k.gltf"}
 		}
 		Uuid %DocumentID{u4{3154359879761750679,5600306861022772117}}
-		u4 %Hash{5777080768132141579}
+		u4 %Hash{2826787538526475976}
 		VarArray %MetaInfo{}
 		VarArray %Outputs{}
-		VarArray %References
+		VarArray %PackageDeps
 		{
 			s{"{ 72748b9e-00b2-4899-ac1f-57d64866228b }"}
 		}
+		VarArray %References
+		{
+			s{"PolyHaven/lantern_chandelier_01_2k/lantern_chandelier_01_2k.gltf"}
+		}
+		s %Tags{""}
 	}
 }
 }
@@ -30,19 +36,26 @@ o
 {
 	Uuid %id{u4{8113353585620243074,5158017080087293374}}
 	s %t{"ezJoltCollisionMeshAssetProperties"}
-	u3 %v{1}
+	u3 %v{2}
 	p
 	{
+		b %AggressiveSimplification{0}
 		s %ConvexMeshType{"ezJoltConvexCollisionMeshType::ConvexHull"}
 		u1 %Detail{1}
 		b %FlipForwardDir{0}
 		f %Height{0x0000803F}
+		s %ImportTransform{"ezMeshImportTransform::Custom"}
 		b %IsConvexMesh{1}
 		u2 %MaxConvexPieces{5}
+		u1 %MaxSimplificationError{20}
+		s %MeshExcludeTags{""}
 		s %MeshFile{"PolyHaven/lantern_chandelier_01_2k/lantern_chandelier_01_2k.gltf"}
+		s %MeshIncludeTags{""}
+		u1 %MeshSimplification{50}
 		f %Radius{0x0000003F}
 		f %Radius2{0x0000003F}
 		s %RightDir{"ezBasisAxis::PositiveX"}
+		b %SimplifyMesh{0}
 		s %Surface{"{ 72748b9e-00b2-4899-ac1f-57d64866228b }"}
 		VarArray %Surfaces{}
 		f %UniformScaling{0x0000803F}
@@ -80,7 +93,6 @@ o
 		s %PluginName{"ezEditorPluginJolt"}
 		VarArray %Properties{}
 		s %TypeName{"ezJoltConvexCollisionMeshType"}
-		u3 %TypeSize{1}
 		u3 %TypeVersion{1}
 	}
 }
@@ -98,7 +110,6 @@ o
 		s %PluginName{"ezEditorPluginJolt"}
 		VarArray %Properties{}
 		s %TypeName{"ezJoltSurfaceResourceSlot"}
-		u3 %TypeSize{128}
 		u3 %TypeVersion{1}
 	}
 }
@@ -116,8 +127,7 @@ o
 		s %PluginName{"ezEditorPluginJolt"}
 		VarArray %Properties{}
 		s %TypeName{"ezJoltCollisionMeshAssetProperties"}
-		u3 %TypeSize{1224}
-		u3 %TypeVersion{1}
+		u3 %TypeVersion{2}
 	}
 }
 o
@@ -134,7 +144,23 @@ o
 		s %PluginName{"Static"}
 		VarArray %Properties{}
 		s %TypeName{"ezDocumentRoot"}
-		u3 %TypeSize{72}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{16959510582460493866,8962221111705621108}}
+	s %t{"ezReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"ezTypeFlags::IsEnum|ezTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"ezEnumBase"}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"ezMeshImportTransform"}
 		u3 %TypeVersion{1}
 	}
 }
@@ -152,7 +178,6 @@ o
 		s %PluginName{"Static"}
 		VarArray %Properties{}
 		s %TypeName{"ezEnumBase"}
-		u3 %TypeSize{1}
 		u3 %TypeVersion{1}
 	}
 }
@@ -170,7 +195,6 @@ o
 		s %PluginName{"Static"}
 		VarArray %Properties{}
 		s %TypeName{"ezBasisAxis"}
-		u3 %TypeSize{1}
 		u3 %TypeVersion{1}
 	}
 }
@@ -188,7 +212,6 @@ o
 		s %PluginName{"Static"}
 		VarArray %Properties{}
 		s %TypeName{"ezReflectedClass"}
-		u3 %TypeSize{8}
 		u3 %TypeVersion{1}
 	}
 }

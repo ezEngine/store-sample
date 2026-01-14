@@ -14,7 +14,7 @@ o
 			s{"PolyHaven/security_camera_01_1k/textures/security_camera_01_diff_1k.jpg"}
 		}
 		Uuid %DocumentID{u4{18265550908770476952,4888973951345760411}}
-		u4 %Hash{14501604299436340471}
+		u4 %Hash{10455796402286588139}
 		VarArray %MetaInfo{}
 		VarArray %Outputs
 		{

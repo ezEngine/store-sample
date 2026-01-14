@@ -11,7 +11,7 @@ o
 		s %AssetType{"Layer"}
 		VarArray %Dependencies{}
 		Uuid %DocumentID{u4{3836388713405184903,5598852044603947509}}
-		u4 %Hash{6161050677280589688}
+		u4 %Hash{17118666993297452555}
 		VarArray %MetaInfo{}
 		VarArray %Outputs{}
 		VarArray %PackageDeps
@@ -182,6 +182,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ e2b5a91e-9448-4e75-9aa5-85ffb0c32ce9 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -194,6 +195,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 88d73127-2771-967c-1bb8-cd5a541cddbd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -206,6 +208,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 232939d5-703c-8e61-0dd3-f05581f744ee }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -244,6 +247,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ a4f8fb8f-4276-485a-8781-0cfb5304b622 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -256,6 +260,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 2def52c6-46e4-944a-3d21-17fcf58f2c76 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -268,6 +273,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ e2b5a91e-9448-4e75-9aa5-85ffb0c32ce9 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -280,6 +286,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 73196af8-7d11-41ae-8ff1-cdc52b699371 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -370,6 +377,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 814b5776-7216-4e01-a3f0-21ca9041f572 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -408,6 +416,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 88d73127-2771-967c-1bb8-cd5a541cddbd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -446,6 +455,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1539981d-3bac-4fde-8a0f-b93ca58fc242 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -588,6 +598,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 5215cd0f-49e5-90ae-1681-7c6f1228495e }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -600,6 +611,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 73196af8-7d11-41ae-8ff1-cdc52b699371 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -664,6 +676,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 14f6387a-fada-88a9-2c49-45bbf0fb885e }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -702,6 +715,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 73196af8-7d11-41ae-8ff1-cdc52b699371 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -743,6 +757,7 @@ o
 			b %Cans{0}
 		}
 		s %Prefab{"{ aebea6c1-d2ba-90f8-36e8-d574ec670882 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -755,6 +770,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1676f0d1-5fcd-4c56-9a0b-3fd0d9105925 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -767,6 +783,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 17996328-f786-40f5-9910-033284dc4f1d }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -779,6 +796,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1676f0d1-5fcd-4c56-9a0b-3fd0d9105925 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -921,6 +939,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 73196af8-7d11-41ae-8ff1-cdc52b699371 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -933,6 +952,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1539981d-3bac-4fde-8a0f-b93ca58fc242 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -945,6 +965,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 5c77d477-f7a8-40f9-ad7d-f1a13988fae1 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -957,6 +978,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 91bd56fc-ecb9-4daa-9bbc-2992c87dc97f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -995,6 +1017,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 107b9434-8cb2-4554-888b-7f2cb6023cc7 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -1007,6 +1030,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 17996328-f786-40f5-9910-033284dc4f1d }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -1045,6 +1069,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1e8989c5-cf85-463e-8cf4-7f8bf41aeadd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -1057,6 +1082,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ c1ded03d-4911-938a-1873-c474e70c3e3f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -1069,6 +1095,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ a4f8fb8f-4276-485a-8781-0cfb5304b622 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -1159,6 +1186,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 028747cf-0017-455f-a817-a4bd203e1dad }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -1197,6 +1225,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 6e3c3690-99f0-874b-1476-a05e7a0defbb }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -1261,6 +1290,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ c5601692-1435-490a-bdde-2f8d182f9cae }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -1273,6 +1303,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 0e1d504a-5621-4647-843f-1e785b0b8864 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -1337,6 +1368,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ a4f8fb8f-4276-485a-8781-0cfb5304b622 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -1349,6 +1381,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 5c77d477-f7a8-40f9-ad7d-f1a13988fae1 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -1361,6 +1394,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 17996328-f786-40f5-9910-033284dc4f1d }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -1451,6 +1485,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 73196af8-7d11-41ae-8ff1-cdc52b699371 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -1463,6 +1498,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 5215cd0f-49e5-90ae-1681-7c6f1228495e }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -1475,6 +1511,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 73196af8-7d11-41ae-8ff1-cdc52b699371 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -1487,6 +1524,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 2def52c6-46e4-944a-3d21-17fcf58f2c76 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -1499,6 +1537,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 028747cf-0017-455f-a817-a4bd203e1dad }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -1511,6 +1550,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 3b04f2e0-1d59-4725-9e2a-717b9ad57713 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -1523,6 +1563,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 9f31cf0e-1fca-923a-3719-8ec85ae81596 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -1535,6 +1576,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ c1ded03d-4911-938a-1873-c474e70c3e3f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -1573,6 +1615,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 89f0ee80-c8d0-8b44-0811-262b7aa3a80f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -1585,6 +1628,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 88d73127-2771-967c-1bb8-cd5a541cddbd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -1649,6 +1693,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 028747cf-0017-455f-a817-a4bd203e1dad }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -1713,6 +1758,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 5c77d477-f7a8-40f9-ad7d-f1a13988fae1 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -1725,6 +1771,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 5215cd0f-49e5-90ae-1681-7c6f1228495e }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -1737,6 +1784,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 5c77d477-f7a8-40f9-ad7d-f1a13988fae1 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -1749,6 +1797,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 2435016a-0782-8cb7-42cf-0abff6278f8a }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -1787,6 +1836,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ dacbb8d2-4180-948d-4354-9af5500515ab }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -1929,6 +1979,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 17996328-f786-40f5-9910-033284dc4f1d }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -1967,6 +2018,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ a4f8fb8f-4276-485a-8781-0cfb5304b622 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -2005,6 +2057,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ df3ed127-ac8a-8ae5-24c1-2983154c80b0 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -2017,6 +2070,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ e7f1afc8-6ccf-9609-0c0d-01c90c241c6b }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -2133,6 +2187,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ c71a87d2-8902-450a-a58f-edbe2efdd8b5 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -2197,6 +2252,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ e22c84a8-5f61-4b46-92b8-e85ddb630554 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -2339,6 +2395,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ b5809a13-f189-8a30-1027-13e173f0946a }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -2429,6 +2486,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 88d73127-2771-967c-1bb8-cd5a541cddbd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -2441,6 +2499,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ b5809a13-f189-8a30-1027-13e173f0946a }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -2479,6 +2538,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 5215cd0f-49e5-90ae-1681-7c6f1228495e }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -2569,6 +2629,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ b5809a13-f189-8a30-1027-13e173f0946a }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -2581,6 +2642,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ b7649c15-9005-4283-bba6-11dcf3bfeec8 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -2619,6 +2681,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ a4f8fb8f-4276-485a-8781-0cfb5304b622 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -2631,6 +2694,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ b5809a13-f189-8a30-1027-13e173f0946a }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -2669,6 +2733,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 88d73127-2771-967c-1bb8-cd5a541cddbd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -2681,6 +2746,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ df3ed127-ac8a-8ae5-24c1-2983154c80b0 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -2719,6 +2785,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ b5809a13-f189-8a30-1027-13e173f0946a }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -2783,6 +2850,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ f449df53-03b9-47ab-9b4b-d830d5ee596d }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -2795,6 +2863,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ b5809a13-f189-8a30-1027-13e173f0946a }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -2807,6 +2876,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ b5809a13-f189-8a30-1027-13e173f0946a }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -2897,6 +2967,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ b5809a13-f189-8a30-1027-13e173f0946a }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -2938,6 +3009,7 @@ o
 			b %Plates{0}
 		}
 		s %Prefab{"{ aebea6c1-d2ba-90f8-36e8-d574ec670882 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -2950,6 +3022,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ b5809a13-f189-8a30-1027-13e173f0946a }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -2962,6 +3035,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ a4f8fb8f-4276-485a-8781-0cfb5304b622 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -3000,6 +3074,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 88d73127-2771-967c-1bb8-cd5a541cddbd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -3067,7 +3142,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{1}
-		b %IncludeInNavmesh{1}
 		s %Material{"{ 216b7e7a-4520-4054-9623-5e10a563d2d6 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000003F}
@@ -3157,6 +3231,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 814b5776-7216-4e01-a3f0-21ca9041f572 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -3169,6 +3244,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 232939d5-703c-8e61-0dd3-f05581f744ee }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -3207,6 +3283,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ e2b5a91e-9448-4e75-9aa5-85ffb0c32ce9 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -3559,6 +3636,7 @@ o
 			b %Cans{0}
 		}
 		s %Prefab{"{ aebea6c1-d2ba-90f8-36e8-d574ec670882 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -3571,6 +3649,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 73196af8-7d11-41ae-8ff1-cdc52b699371 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -3583,6 +3662,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 73196af8-7d11-41ae-8ff1-cdc52b699371 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -3595,6 +3675,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 17996328-f786-40f5-9910-033284dc4f1d }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -3633,6 +3714,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 028747cf-0017-455f-a817-a4bd203e1dad }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -3749,6 +3831,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 6e3c3690-99f0-874b-1476-a05e7a0defbb }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -3761,6 +3844,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 17996328-f786-40f5-9910-033284dc4f1d }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -3903,6 +3987,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 028747cf-0017-455f-a817-a4bd203e1dad }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -3915,6 +4000,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 91bd56fc-ecb9-4daa-9bbc-2992c87dc97f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -3927,6 +4013,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 14f6387a-fada-88a9-2c49-45bbf0fb885e }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -3939,6 +4026,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 107b9434-8cb2-4554-888b-7f2cb6023cc7 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -3977,6 +4065,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 5c77d477-f7a8-40f9-ad7d-f1a13988fae1 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -4015,6 +4104,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 89f0ee80-c8d0-8b44-0811-262b7aa3a80f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -4053,6 +4143,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 73196af8-7d11-41ae-8ff1-cdc52b699371 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -4065,6 +4156,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 5215cd0f-49e5-90ae-1681-7c6f1228495e }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -4181,6 +4273,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 73196af8-7d11-41ae-8ff1-cdc52b699371 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -4193,6 +4286,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ c1ded03d-4911-938a-1873-c474e70c3e3f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -4205,6 +4299,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ df3ed127-ac8a-8ae5-24c1-2983154c80b0 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -4217,6 +4312,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 17996328-f786-40f5-9910-033284dc4f1d }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -4333,6 +4429,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 2435016a-0782-8cb7-42cf-0abff6278f8a }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -4423,6 +4520,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 9f31cf0e-1fca-923a-3719-8ec85ae81596 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -4435,6 +4533,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 88d73127-2771-967c-1bb8-cd5a541cddbd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -4447,6 +4546,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 5215cd0f-49e5-90ae-1681-7c6f1228495e }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -4459,6 +4559,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ a4f8fb8f-4276-485a-8781-0cfb5304b622 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -4471,6 +4572,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1e8989c5-cf85-463e-8cf4-7f8bf41aeadd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -4509,6 +4611,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 3b04f2e0-1d59-4725-9e2a-717b9ad57713 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -4521,6 +4624,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 028747cf-0017-455f-a817-a4bd203e1dad }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -4533,6 +4637,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 5c77d477-f7a8-40f9-ad7d-f1a13988fae1 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -4545,6 +4650,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ a4f8fb8f-4276-485a-8781-0cfb5304b622 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -4609,6 +4715,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ c71a87d2-8902-450a-a58f-edbe2efdd8b5 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -4621,6 +4728,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 88d73127-2771-967c-1bb8-cd5a541cddbd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -4685,6 +4793,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 028747cf-0017-455f-a817-a4bd203e1dad }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -4827,6 +4936,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ a4f8fb8f-4276-485a-8781-0cfb5304b622 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -4839,6 +4949,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 88d73127-2771-967c-1bb8-cd5a541cddbd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -4851,6 +4962,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ b5809a13-f189-8a30-1027-13e173f0946a }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -4889,6 +5001,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ e22c84a8-5f61-4b46-92b8-e85ddb630554 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -4901,6 +5014,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 5215cd0f-49e5-90ae-1681-7c6f1228495e }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -4939,6 +5053,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ df3ed127-ac8a-8ae5-24c1-2983154c80b0 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -5003,6 +5118,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 88d73127-2771-967c-1bb8-cd5a541cddbd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -5145,6 +5261,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 998ac0ce-d8a9-91aa-2c1d-aeba9545ce8d }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -5183,6 +5300,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 7d166c03-f05d-8c29-422a-d72ff910da9b }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -5195,6 +5313,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ a4f8fb8f-4276-485a-8781-0cfb5304b622 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -5274,6 +5393,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ b5a5e19a-9896-4cc9-88cd-db1bab204c43 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -5312,6 +5432,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 814b5776-7216-4e01-a3f0-21ca9041f572 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -5324,6 +5445,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 0c0368a4-88db-9036-435d-fddd49702c8f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -5336,6 +5458,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 8434fbf9-8dd1-9305-166b-952ba6f3cb19 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -5374,6 +5497,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 73196af8-7d11-41ae-8ff1-cdc52b699371 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -5412,6 +5536,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 73196af8-7d11-41ae-8ff1-cdc52b699371 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -5424,6 +5549,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ c5601692-1435-490a-bdde-2f8d182f9cae }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -5436,6 +5562,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 2def52c6-46e4-944a-3d21-17fcf58f2c76 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -5448,6 +5575,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 8434fbf9-8dd1-9305-166b-952ba6f3cb19 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -5486,6 +5614,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 21340cfa-3896-874a-1863-f15b11f1a00e }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -5498,6 +5627,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 107b9434-8cb2-4554-888b-7f2cb6023cc7 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -5588,6 +5718,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 071c627e-2e18-931a-42a6-3d5c22a78088 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -5808,6 +5939,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 731a4ef3-fffd-87a4-07d2-26639dc9715d }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -5820,6 +5952,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 731a4ef3-fffd-87a4-07d2-26639dc9715d }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -5962,6 +6095,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 6e3c3690-99f0-874b-1476-a05e7a0defbb }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -6016,6 +6150,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4346cfcb-fc71-88f6-1813-2c162828c527 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -6028,6 +6163,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 5c77d477-f7a8-40f9-ad7d-f1a13988fae1 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -6066,6 +6202,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 107b9434-8cb2-4554-888b-7f2cb6023cc7 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -6078,6 +6215,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ e11cb544-2b7c-44b9-8bd8-b37be7bec7b0 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -6090,6 +6228,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 17996328-f786-40f5-9910-033284dc4f1d }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -6128,6 +6267,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 21340cfa-3896-874a-1863-f15b11f1a00e }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -6166,6 +6306,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 0e1d504a-5621-4647-843f-1e785b0b8864 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -6178,6 +6319,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1676f0d1-5fcd-4c56-9a0b-3fd0d9105925 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -6216,6 +6358,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 611e1f88-2678-44ca-83f5-3b495f0f4a3f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -6269,6 +6412,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ dacbb8d2-4180-948d-4354-9af5500515ab }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -6333,6 +6477,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 65259e49-f27d-965a-1497-b46e67918277 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -6371,6 +6516,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 91bd56fc-ecb9-4daa-9bbc-2992c87dc97f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -6435,6 +6581,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 611e1f88-2678-44ca-83f5-3b495f0f4a3f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -6525,6 +6672,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 2435016a-0782-8cb7-42cf-0abff6278f8a }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -6592,6 +6740,7 @@ o
 			b %Cans{0}
 		}
 		s %Prefab{"{ aebea6c1-d2ba-90f8-36e8-d574ec670882 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -6630,6 +6779,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ da234b2c-74e5-8bb3-0881-07ea5434a5f8 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -6642,6 +6792,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 3b04f2e0-1d59-4725-9e2a-717b9ad57713 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -6706,6 +6857,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 9f31cf0e-1fca-923a-3719-8ec85ae81596 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -6770,6 +6922,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 46bce6e6-2df7-8761-35fa-cd4ce051cadb }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -6834,6 +6987,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 352ec460-37e5-878c-1cc4-015188831f64 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -6913,6 +7067,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ c71a87d2-8902-450a-a58f-edbe2efdd8b5 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -6925,6 +7080,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 998ac0ce-d8a9-91aa-2c1d-aeba9545ce8d }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -6937,6 +7093,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ e11cb544-2b7c-44b9-8bd8-b37be7bec7b0 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -6975,6 +7132,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 89f0ee80-c8d0-8b44-0811-262b7aa3a80f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -7039,6 +7197,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 8eb9eba0-a1c8-9071-26f6-73bb82ce2496 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -7051,6 +7210,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1e8989c5-cf85-463e-8cf4-7f8bf41aeadd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -7089,6 +7249,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ e11cb544-2b7c-44b9-8bd8-b37be7bec7b0 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -7153,6 +7314,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 3465054a-104f-88fe-2424-717df2a1b8c7 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -7243,6 +7405,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 5c77d477-f7a8-40f9-ad7d-f1a13988fae1 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -7255,6 +7418,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ b7649c15-9005-4283-bba6-11dcf3bfeec8 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -7267,6 +7431,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 077657e5-b797-4525-9117-ce9ef34b987e }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -7279,6 +7444,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ f2aeafe2-3dba-89bb-4341-56c9401ec6f8 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -7291,6 +7457,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 44d7424d-99aa-476d-8759-d2916803450c }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -7335,6 +7502,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ f1367852-087d-4477-93a1-22d727b12530 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -7347,6 +7515,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ d044a13a-b555-8fdc-2a62-3f88063288da }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -7359,6 +7528,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ dacbb8d2-4180-948d-4354-9af5500515ab }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -7423,6 +7593,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ f2264fbe-635b-42e1-bd1d-359e13398c9d }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -7435,6 +7606,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 65259e49-f27d-965a-1497-b46e67918277 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -7447,6 +7619,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 9e75db2f-7458-8e1e-1c0c-072e7ea664e8 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -7459,6 +7632,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ f82eecc6-30ee-8b97-4119-803d88c963b1 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -7471,6 +7645,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ f82eecc6-30ee-8b97-4119-803d88c963b1 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -7483,6 +7658,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 9e75db2f-7458-8e1e-1c0c-072e7ea664e8 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -7521,6 +7697,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 89f0ee80-c8d0-8b44-0811-262b7aa3a80f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -7536,7 +7713,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{1}
-		b %IncludeInNavmesh{1}
 		s %Material{"{ 216b7e7a-4520-4054-9623-5e10a563d2d6 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000003F}
@@ -7564,6 +7740,7 @@ o
 			b %Plates{0}
 		}
 		s %Prefab{"{ aebea6c1-d2ba-90f8-36e8-d574ec670882 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -7576,6 +7753,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 0b60773f-0507-942b-378c-51c5a8129bbf }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -7692,6 +7870,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 232939d5-703c-8e61-0dd3-f05581f744ee }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -7730,6 +7909,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ e43c693e-8922-44d7-bffb-c0a1ed600f9d }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -7742,6 +7922,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4346cfcb-fc71-88f6-1813-2c162828c527 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -7832,6 +8013,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ f449df53-03b9-47ab-9b4b-d830d5ee596d }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -7880,6 +8062,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 00a41a56-69ad-91a0-406f-6620fb097d70 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -7944,6 +8127,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ a4f8fb8f-4276-485a-8781-0cfb5304b622 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -7982,6 +8166,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 0b60773f-0507-942b-378c-51c5a8129bbf }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -7994,6 +8179,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4fa8795d-59c3-8d59-140a-82cd4b5be120 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8006,6 +8192,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ e2b5a91e-9448-4e75-9aa5-85ffb0c32ce9 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8044,6 +8231,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 232939d5-703c-8e61-0dd3-f05581f744ee }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8056,6 +8244,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ f2264fbe-635b-42e1-bd1d-359e13398c9d }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8146,6 +8335,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 17996328-f786-40f5-9910-033284dc4f1d }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8262,6 +8452,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 91bd56fc-ecb9-4daa-9bbc-2992c87dc97f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8303,6 +8494,7 @@ o
 			b %Cans{0}
 		}
 		s %Prefab{"{ aebea6c1-d2ba-90f8-36e8-d574ec670882 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8341,6 +8533,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 73196af8-7d11-41ae-8ff1-cdc52b699371 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8379,6 +8572,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 6e3c3690-99f0-874b-1476-a05e7a0defbb }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8443,6 +8637,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 73196af8-7d11-41ae-8ff1-cdc52b699371 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8481,6 +8676,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 5215cd0f-49e5-90ae-1681-7c6f1228495e }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8519,6 +8715,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 17996328-f786-40f5-9910-033284dc4f1d }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8531,6 +8728,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 88d73127-2771-967c-1bb8-cd5a541cddbd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8595,6 +8793,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ a4f8fb8f-4276-485a-8781-0cfb5304b622 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8607,6 +8806,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 88d73127-2771-967c-1bb8-cd5a541cddbd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8671,6 +8871,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 3b04f2e0-1d59-4725-9e2a-717b9ad57713 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8683,6 +8884,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ a4f8fb8f-4276-485a-8781-0cfb5304b622 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8721,6 +8923,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 88d73127-2771-967c-1bb8-cd5a541cddbd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8733,6 +8936,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ a4f8fb8f-4276-485a-8781-0cfb5304b622 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8745,6 +8949,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ c71a87d2-8902-450a-a58f-edbe2efdd8b5 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8809,6 +9014,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ df3ed127-ac8a-8ae5-24c1-2983154c80b0 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8847,6 +9053,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 88d73127-2771-967c-1bb8-cd5a541cddbd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8885,6 +9092,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ a4f8fb8f-4276-485a-8781-0cfb5304b622 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8949,6 +9157,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 7d166c03-f05d-8c29-422a-d72ff910da9b }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9013,6 +9222,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 2def52c6-46e4-944a-3d21-17fcf58f2c76 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9025,6 +9235,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 232939d5-703c-8e61-0dd3-f05581f744ee }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9063,6 +9274,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ c5601692-1435-490a-bdde-2f8d182f9cae }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9101,6 +9313,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 88d73127-2771-967c-1bb8-cd5a541cddbd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9113,6 +9326,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 7d166c03-f05d-8c29-422a-d72ff910da9b }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9125,6 +9339,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ e2b5a91e-9448-4e75-9aa5-85ffb0c32ce9 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9137,6 +9352,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 2def52c6-46e4-944a-3d21-17fcf58f2c76 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9149,6 +9365,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 73196af8-7d11-41ae-8ff1-cdc52b699371 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9187,6 +9404,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 814b5776-7216-4e01-a3f0-21ca9041f572 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9199,6 +9417,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1539981d-3bac-4fde-8a0f-b93ca58fc242 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9211,6 +9430,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 14f6387a-fada-88a9-2c49-45bbf0fb885e }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9223,6 +9443,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 232939d5-703c-8e61-0dd3-f05581f744ee }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9235,6 +9456,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ e22c84a8-5f61-4b46-92b8-e85ddb630554 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9299,6 +9521,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 65259e49-f27d-965a-1497-b46e67918277 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9311,6 +9534,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 028747cf-0017-455f-a817-a4bd203e1dad }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9323,6 +9547,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1676f0d1-5fcd-4c56-9a0b-3fd0d9105925 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9335,6 +9560,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 17996328-f786-40f5-9910-033284dc4f1d }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9477,6 +9703,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 2def52c6-46e4-944a-3d21-17fcf58f2c76 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9489,6 +9716,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 73196af8-7d11-41ae-8ff1-cdc52b699371 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9631,6 +9859,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 21340cfa-3896-874a-1863-f15b11f1a00e }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9799,6 +10028,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 5215cd0f-49e5-90ae-1681-7c6f1228495e }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9811,6 +10041,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 6e3c3690-99f0-874b-1476-a05e7a0defbb }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9928,6 +10159,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ a4f8fb8f-4276-485a-8781-0cfb5304b622 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9992,6 +10224,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 17996328-f786-40f5-9910-033284dc4f1d }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10004,6 +10237,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 5c77d477-f7a8-40f9-ad7d-f1a13988fae1 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10045,6 +10279,7 @@ o
 			b %Cans{0}
 		}
 		s %Prefab{"{ aebea6c1-d2ba-90f8-36e8-d574ec670882 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10109,6 +10344,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 107b9434-8cb2-4554-888b-7f2cb6023cc7 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10121,6 +10357,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 17996328-f786-40f5-9910-033284dc4f1d }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10133,6 +10370,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 73196af8-7d11-41ae-8ff1-cdc52b699371 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10145,6 +10383,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 731a4ef3-fffd-87a4-07d2-26639dc9715d }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10157,6 +10396,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ c1ded03d-4911-938a-1873-c474e70c3e3f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10169,6 +10409,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 86bcb2f4-897a-94e6-18e4-85b77cb622e8 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10239,6 +10480,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1539981d-3bac-4fde-8a0f-b93ca58fc242 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10280,6 +10522,7 @@ o
 			b %Cans{0}
 		}
 		s %Prefab{"{ aebea6c1-d2ba-90f8-36e8-d574ec670882 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10292,6 +10535,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 028747cf-0017-455f-a817-a4bd203e1dad }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10304,6 +10548,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 73196af8-7d11-41ae-8ff1-cdc52b699371 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10316,6 +10561,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 644af745-7418-95ac-2316-2da2539372a7 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10328,6 +10574,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 91bd56fc-ecb9-4daa-9bbc-2992c87dc97f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10522,6 +10769,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ dacbb8d2-4180-948d-4354-9af5500515ab }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10560,6 +10808,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ c71a87d2-8902-450a-a58f-edbe2efdd8b5 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10572,6 +10821,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ dacbb8d2-4180-948d-4354-9af5500515ab }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10584,6 +10834,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1676f0d1-5fcd-4c56-9a0b-3fd0d9105925 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10596,6 +10847,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 2435016a-0782-8cb7-42cf-0abff6278f8a }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10634,6 +10886,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1e8989c5-cf85-463e-8cf4-7f8bf41aeadd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10646,6 +10899,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 5c77d477-f7a8-40f9-ad7d-f1a13988fae1 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10762,6 +11016,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 232939d5-703c-8e61-0dd3-f05581f744ee }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10774,6 +11029,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ dacbb8d2-4180-948d-4354-9af5500515ab }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10812,6 +11068,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ e22c84a8-5f61-4b46-92b8-e85ddb630554 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10865,6 +11122,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ a4f8fb8f-4276-485a-8781-0cfb5304b622 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10903,6 +11161,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 9f31cf0e-1fca-923a-3719-8ec85ae81596 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10915,6 +11174,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ e22c84a8-5f61-4b46-92b8-e85ddb630554 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10927,6 +11187,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ f2aeafe2-3dba-89bb-4341-56c9401ec6f8 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10939,6 +11200,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 49525e10-1b27-8f2f-2ca7-96ab503de281 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10951,6 +11213,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 3465054a-104f-88fe-2424-717df2a1b8c7 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -11015,6 +11278,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 5215cd0f-49e5-90ae-1681-7c6f1228495e }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -11131,6 +11395,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 0b60773f-0507-942b-378c-51c5a8129bbf }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -11143,6 +11408,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 89f0ee80-c8d0-8b44-0811-262b7aa3a80f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -11265,6 +11531,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 65259e49-f27d-965a-1497-b46e67918277 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -11277,6 +11544,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 88d73127-2771-967c-1bb8-cd5a541cddbd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -11289,6 +11557,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 028747cf-0017-455f-a817-a4bd203e1dad }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -11301,6 +11570,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 0b60773f-0507-942b-378c-51c5a8129bbf }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -11313,6 +11583,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 3b04f2e0-1d59-4725-9e2a-717b9ad57713 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -11403,6 +11674,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 88d73127-2771-967c-1bb8-cd5a541cddbd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -11597,6 +11869,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ df3ed127-ac8a-8ae5-24c1-2983154c80b0 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -11609,6 +11882,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 0ee6314c-4086-8d39-1496-5cda13d7a804 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -11621,6 +11895,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 5215cd0f-49e5-90ae-1681-7c6f1228495e }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -11659,6 +11934,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ f82eecc6-30ee-8b97-4119-803d88c963b1 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -11726,7 +12002,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{1}
-		b %IncludeInNavmesh{1}
 		s %Material{"{ 216b7e7a-4520-4054-9623-5e10a563d2d6 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000003F}
@@ -11751,6 +12026,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 8a2fd670-1949-44cb-8eb9-5c884a7a0bb0 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -11815,6 +12091,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 0b60773f-0507-942b-378c-51c5a8129bbf }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -11827,6 +12104,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ b7649c15-9005-4283-bba6-11dcf3bfeec8 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -11865,6 +12143,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 8eb9eba0-a1c8-9071-26f6-73bb82ce2496 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -11877,6 +12156,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 998ac0ce-d8a9-91aa-2c1d-aeba9545ce8d }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -11915,6 +12195,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 86bcb2f4-897a-94e6-18e4-85b77cb622e8 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -11927,6 +12208,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ f449df53-03b9-47ab-9b4b-d830d5ee596d }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -11991,6 +12273,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 5215cd0f-49e5-90ae-1681-7c6f1228495e }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -12081,6 +12364,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4fa8795d-59c3-8d59-140a-82cd4b5be120 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -12122,6 +12406,7 @@ o
 			b %Plates{0}
 		}
 		s %Prefab{"{ aebea6c1-d2ba-90f8-36e8-d574ec670882 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -12189,7 +12474,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{1}
-		b %IncludeInNavmesh{1}
 		s %Material{"{ 216b7e7a-4520-4054-9623-5e10a563d2d6 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000003F}
@@ -12266,6 +12550,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ b5809a13-f189-8a30-1027-13e173f0946a }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -12304,6 +12589,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ e43c693e-8922-44d7-bffb-c0a1ed600f9d }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -12316,6 +12602,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 73196af8-7d11-41ae-8ff1-cdc52b699371 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -12328,6 +12615,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ e43c693e-8922-44d7-bffb-c0a1ed600f9d }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -12340,6 +12628,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ a4f8fb8f-4276-485a-8781-0cfb5304b622 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -12404,6 +12693,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 17996328-f786-40f5-9910-033284dc4f1d }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -12442,6 +12732,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 88d73127-2771-967c-1bb8-cd5a541cddbd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -12480,6 +12771,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ a4f8fb8f-4276-485a-8781-0cfb5304b622 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o

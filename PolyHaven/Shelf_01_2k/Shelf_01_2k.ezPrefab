@@ -24,13 +24,14 @@ o
 {
 	Uuid %id{u4{11135071928388948985,5273660789588319025}}
 	s %t{"ezExposedParameter"}
-	u3 %v{2}
+	u3 %v{3}
 	p
 	{
 		VarArray %Attributes
 		{
 			Uuid{u4{11108196549167910543,375937890710839511}}
 		}
+		s %Category{"ezPropertyCategory::Member"}
 		b %DefaultValue{1}
 		s %Name{"Cans"}
 		s %Type{"bool"}
@@ -40,13 +41,14 @@ o
 {
 	Uuid %id{u4{1067732167472091039,6969201211924577189}}
 	s %t{"ezExposedParameter"}
-	u3 %v{2}
+	u3 %v{3}
 	p
 	{
 		VarArray %Attributes
 		{
 			Uuid{u4{16600930799250334504,1980530483353988614}}
 		}
+		s %Category{"ezPropertyCategory::Member"}
 		b %DefaultValue{1}
 		s %Name{"Plates"}
 		s %Type{"bool"}
@@ -63,7 +65,7 @@ o
 		s %AssetType{"Prefab"}
 		VarArray %Dependencies{}
 		Uuid %DocumentID{u4{9369853290014435382,10446331034923345601}}
-		u4 %Hash{4768686379908136527}
+		u4 %Hash{9744349135321313874}
 		VarArray %MetaInfo
 		{
 			Uuid{u4{17348065064779060938,15142121647900230918}}
@@ -737,7 +739,6 @@ o
 		b %Active{1}
 		u1 %CollisionLayer{0}
 		s %CollisionMesh{"{ a693db55-a055-45c0-9223-44eeba4c606c }"}
-		b %IncludeInNavmesh{1}
 		b %PullSurfacesFromGraphicsMesh{0}
 		s %Surface{""}
 	}
@@ -2786,24 +2787,6 @@ o
 }
 o
 {
-	Uuid %id{u4{1421301365544915085,1412605750390658959}}
-	s %t{"ezReflectedPropertyDescriptor"}
-	u3 %v{2}
-	p
-	{
-		VarArray %Attributes
-		{
-			Uuid{u4{7205848659335305938,12929639479763655777}}
-		}
-		s %Category{"ezPropertyCategory::Member"}
-		Invalid %ConstantValue{}
-		s %Flags{"ezPropertyFlags::StandardType|ezPropertyFlags::Phantom"}
-		s %Name{"IncludeInNavmesh"}
-		s %Type{"bool"}
-	}
-}
-o
-{
 	Uuid %id{u4{11638255232360359673,3108610646416571142}}
 	s %t{"ezReflectedTypeDescriptor"}
 	u3 %v{1}
@@ -2892,18 +2875,6 @@ o
 }
 o
 {
-	Uuid %id{u4{2651483327968716324,4703718889491836073}}
-	s %t{"ezAssetBrowserAttribute"}
-	u3 %v{1}
-	p
-	{
-		s %DependencyFlags{"ezDependencyFlags::Package"}
-		s %Filter{";CompatibleAsset_Jolt_Colmesh_Triangle;"}
-		s %RequiredTag{""}
-	}
-}
-o
-{
 	Uuid %id{u4{2163734486728560548,5207785756772715568}}
 	s %t{"ezReflectedPropertyDescriptor"}
 	u3 %v{2}
@@ -2937,21 +2908,6 @@ o
 		s %Flags{"ezPropertyFlags::StandardType|ezPropertyFlags::Phantom"}
 		s %Name{"Color1"}
 		s %Type{"ezColor"}
-	}
-}
-o
-{
-	Uuid %id{u4{15867454462698209426,6174537143043166581}}
-	s %t{"ezReflectedPropertyDescriptor"}
-	u3 %v{2}
-	p
-	{
-		VarArray %Attributes{}
-		s %Category{"ezPropertyCategory::Member"}
-		Invalid %ConstantValue{}
-		s %Flags{"ezPropertyFlags::StandardType|ezPropertyFlags::Phantom"}
-		s %Name{"PullSurfacesFromGraphicsMesh"}
-		s %Type{"bool"}
 	}
 }
 o
@@ -3072,17 +3028,11 @@ o
 	p
 	{
 		VarArray %Attributes{}
-		s %Flags{"ezTypeFlags::Class|ezTypeFlags::Phantom"}
+		s %Flags{"ezTypeFlags::Class|ezTypeFlags::Minimal"}
 		VarArray %Functions{}
 		s %ParentTypeName{"ezJoltActorComponent"}
-		s %PluginName{"ezJoltPlugin"}
-		VarArray %Properties
-		{
-			Uuid{u4{17661515250471146716,10175496299122695455}}
-			Uuid{u4{1421301365544915085,1412605750390658959}}
-			Uuid{u4{15867454462698209426,6174537143043166581}}
-			Uuid{u4{34915219510096863,12469644347367624567}}
-		}
+		s %PluginName{"ezEditorPluginJolt"}
+		VarArray %Properties{}
 		s %TypeName{"ezJoltStaticActorComponent"}
 		u3 %TypeVersion{1}
 	}
@@ -3112,24 +3062,6 @@ o
 		VarArray %Properties{}
 		s %TypeName{"ezDocumentRoot"}
 		u3 %TypeVersion{1}
-	}
-}
-o
-{
-	Uuid %id{u4{6455811171020428811,8830539819506900889}}
-	s %t{"ezReflectedFunctionDescriptor"}
-	u3 %v{1}
-	p
-	{
-		VarArray %Arguments{}
-		VarArray %Attributes
-		{
-			Uuid{u4{69518745894662297,10990922075697539529}}
-		}
-		s %Flags{"ezPropertyFlags::Const|ezPropertyFlags::Phantom"}
-		s %Name{"GetObjectFilterID"}
-		Uuid %ReturnValue{u4{2797605736284022243,11870783614192411682}}
-		s %Type{"ezFunctionType::Member"}
 	}
 }
 o
@@ -3249,42 +3181,6 @@ o
 }
 o
 {
-	Uuid %id{u4{1169733456550287353,10163373658405488592}}
-	s %t{"ezReflectedPropertyDescriptor"}
-	u3 %v{2}
-	p
-	{
-		VarArray %Attributes
-		{
-			Uuid{u4{10630366608556099574,15734649419491018854}}
-		}
-		s %Category{"ezPropertyCategory::Member"}
-		Invalid %ConstantValue{}
-		s %Flags{"ezPropertyFlags::StandardType|ezPropertyFlags::Phantom"}
-		s %Name{"CollisionLayer"}
-		s %Type{"ezUInt8"}
-	}
-}
-o
-{
-	Uuid %id{u4{17661515250471146716,10175496299122695455}}
-	s %t{"ezReflectedPropertyDescriptor"}
-	u3 %v{2}
-	p
-	{
-		VarArray %Attributes
-		{
-			Uuid{u4{2651483327968716324,4703718889491836073}}
-		}
-		s %Category{"ezPropertyCategory::Member"}
-		Invalid %ConstantValue{}
-		s %Flags{"ezPropertyFlags::StandardType|ezPropertyFlags::Phantom"}
-		s %Name{"CollisionMesh"}
-		s %Type{"ezStringView"}
-	}
-}
-o
-{
 	Uuid %id{u4{9154373332268777173,10375854436882045288}}
 	s %t{"ezAssetBrowserAttribute"}
 	u3 %v{1}
@@ -3307,27 +3203,6 @@ o
 }
 o
 {
-	Uuid %id{u4{7585678339610765090,10824635046145399990}}
-	s %t{"ezCategoryAttribute"}
-	u3 %v{1}
-	p
-	{
-		s %Category{"Physics/Jolt/Actors"}
-	}
-}
-o
-{
-	Uuid %id{u4{69518745894662297,10990922075697539529}}
-	s %t{"ezScriptableFunctionAttribute"}
-	u3 %v{1}
-	p
-	{
-		VarArray %ArgNames{}
-		VarArray %ArgTypes{}
-	}
-}
-o
-{
 	Uuid %id{u4{14700230518358869173,11472901527618371423}}
 	s %t{"ezReflectedTypeDescriptor"}
 	u3 %v{1}
@@ -3341,17 +3216,6 @@ o
 		VarArray %Properties{}
 		s %TypeName{"ezSceneDocumentSettingsBase"}
 		u3 %TypeVersion{1}
-	}
-}
-o
-{
-	Uuid %id{u4{2797605736284022243,11870783614192411682}}
-	s %t{"ezFunctionArgumentDescriptor"}
-	u3 %v{1}
-	p
-	{
-		s %Flags{"ezPropertyFlags::StandardType"}
-		s %Type{"ezUInt32"}
 	}
 }
 o
@@ -3389,41 +3253,14 @@ o
 	u3 %v{1}
 	p
 	{
-		VarArray %Attributes
-		{
-			Uuid{u4{7585678339610765090,10824635046145399990}}
-		}
-		s %Flags{"ezTypeFlags::Class|ezTypeFlags::Abstract|ezTypeFlags::Phantom"}
-		VarArray %Functions
-		{
-			Uuid{u4{6455811171020428811,8830539819506900889}}
-		}
+		VarArray %Attributes{}
+		s %Flags{"ezTypeFlags::Class|ezTypeFlags::Abstract|ezTypeFlags::Minimal"}
+		VarArray %Functions{}
 		s %ParentTypeName{"ezComponent"}
-		s %PluginName{"ezJoltPlugin"}
-		VarArray %Properties
-		{
-			Uuid{u4{1169733456550287353,10163373658405488592}}
-		}
+		s %PluginName{"ezEditorPluginJolt"}
+		VarArray %Properties{}
 		s %TypeName{"ezJoltActorComponent"}
 		u3 %TypeVersion{2}
-	}
-}
-o
-{
-	Uuid %id{u4{34915219510096863,12469644347367624567}}
-	s %t{"ezReflectedPropertyDescriptor"}
-	u3 %v{2}
-	p
-	{
-		VarArray %Attributes
-		{
-			Uuid{u4{10927490727309097628,15033734827699253395}}
-		}
-		s %Category{"ezPropertyCategory::Member"}
-		Invalid %ConstantValue{}
-		s %Flags{"ezPropertyFlags::StandardType|ezPropertyFlags::Phantom"}
-		s %Name{"Surface"}
-		s %Type{"ezStringView"}
 	}
 }
 o
@@ -3441,16 +3278,6 @@ o
 		VarArray %Properties{}
 		s %TypeName{"ezPropertyAttribute"}
 		u3 %TypeVersion{1}
-	}
-}
-o
-{
-	Uuid %id{u4{7205848659335305938,12929639479763655777}}
-	s %t{"ezDefaultValueAttribute"}
-	u3 %v{1}
-	p
-	{
-		i3 %Value{1}
 	}
 }
 o
@@ -3513,18 +3340,6 @@ o
 }
 o
 {
-	Uuid %id{u4{10927490727309097628,15033734827699253395}}
-	s %t{"ezAssetBrowserAttribute"}
-	u3 %v{1}
-	p
-	{
-		s %DependencyFlags{"ezDependencyFlags::Package"}
-		s %Filter{";CompatibleAsset_Surface;"}
-		s %RequiredTag{""}
-	}
-}
-o
-{
 	Uuid %id{u4{4511384435218918580,15391397678297164884}}
 	s %t{"ezReflectedPropertyDescriptor"}
 	u3 %v{2}
@@ -3551,16 +3366,6 @@ o
 	p
 	{
 		f %Value{0x0000803F}
-	}
-}
-o
-{
-	Uuid %id{u4{10630366608556099574,15734649419491018854}}
-	s %t{"ezDynamicEnumAttribute"}
-	u3 %v{1}
-	p
-	{
-		s %DynamicEnum{"PhysicsCollisionLayer"}
 	}
 }
 o

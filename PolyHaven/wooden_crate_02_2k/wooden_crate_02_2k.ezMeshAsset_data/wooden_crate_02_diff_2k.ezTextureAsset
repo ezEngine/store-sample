@@ -14,10 +14,18 @@ o
 			s{"PolyHaven/wooden_crate_02_2k/textures/wooden_crate_02_diff_2k.jpg"}
 		}
 		Uuid %DocumentID{u4{9277101461605411775,4981803355016743373}}
-		u4 %Hash{7657667645102773333}
+		u4 %Hash{17640833668079231159}
 		VarArray %MetaInfo{}
-		VarArray %Outputs{}
-		VarArray %References{}
+		VarArray %Outputs
+		{
+			s{"LOWRES"}
+		}
+		VarArray %PackageDeps{}
+		VarArray %References
+		{
+			s{"PolyHaven/wooden_crate_02_2k/textures/wooden_crate_02_diff_2k.jpg"}
+		}
+		s %Tags{""}
 	}
 }
 }

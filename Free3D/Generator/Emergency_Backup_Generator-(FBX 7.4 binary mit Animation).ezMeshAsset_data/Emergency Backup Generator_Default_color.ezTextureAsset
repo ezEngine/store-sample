@@ -14,10 +14,18 @@ o
 			s{"Free3D/Generator/Emergency Backup Generator_Default_color.jpg"}
 		}
 		Uuid %DocumentID{u4{12417279627313185454,5465876797867395494}}
-		u4 %Hash{18254808410187012638}
+		u4 %Hash{6042943345155390549}
 		VarArray %MetaInfo{}
-		VarArray %Outputs{}
-		VarArray %References{}
+		VarArray %Outputs
+		{
+			s{"LOWRES"}
+		}
+		VarArray %PackageDeps{}
+		VarArray %References
+		{
+			s{"Free3D/Generator/Emergency Backup Generator_Default_color.jpg"}
+		}
+		s %Tags{""}
 	}
 }
 }

@@ -11,10 +11,11 @@ o
 		s %AssetType{"Jolt_Colmesh_Triangle"}
 		VarArray %Dependencies
 		{
+			s{"PolyHaven/wooden_bookshelf_worn_1k/wooden_bookshelf_worn.bin"}
 			s{"PolyHaven/wooden_bookshelf_worn_1k/wooden_bookshelf_worn_1k.gltf"}
 		}
 		Uuid %DocumentID{u4{18262988073514487686,4719195089155946227}}
-		u4 %Hash{14013521197342402827}
+		u4 %Hash{1831267154435088065}
 		VarArray %MetaInfo{}
 		VarArray %Outputs{}
 		VarArray %PackageDeps
@@ -47,7 +48,7 @@ o
 {
 	Uuid %id{u4{1883554152486624429,5750793861002312869}}
 	s %t{"ezJoltCollisionMeshAssetProperties"}
-	u3 %v{1}
+	u3 %v{2}
 	p
 	{
 		b %AggressiveSimplification{0}
@@ -55,10 +56,13 @@ o
 		u1 %Detail{1}
 		b %FlipForwardDir{0}
 		f %Height{0x0000803F}
+		s %ImportTransform{"ezMeshImportTransform::Custom"}
 		b %IsConvexMesh{0}
 		u2 %MaxConvexPieces{5}
 		u1 %MaxSimplificationError{79}
+		s %MeshExcludeTags{""}
 		s %MeshFile{"PolyHaven/wooden_bookshelf_worn_1k/wooden_bookshelf_worn_1k.gltf"}
+		s %MeshIncludeTags{""}
 		u1 %MeshSimplification{95}
 		f %Radius{0x0000003F}
 		f %Radius2{0x0000003F}
@@ -138,7 +142,7 @@ o
 		s %PluginName{"ezEditorPluginJolt"}
 		VarArray %Properties{}
 		s %TypeName{"ezJoltCollisionMeshAssetProperties"}
-		u3 %TypeVersion{1}
+		u3 %TypeVersion{2}
 	}
 }
 o
@@ -155,6 +159,23 @@ o
 		s %PluginName{"Static"}
 		VarArray %Properties{}
 		s %TypeName{"ezDocumentRoot"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{16959510582460493866,8962221111705621108}}
+	s %t{"ezReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"ezTypeFlags::IsEnum|ezTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"ezEnumBase"}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"ezMeshImportTransform"}
 		u3 %TypeVersion{1}
 	}
 }

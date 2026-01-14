@@ -11,7 +11,7 @@ o
 		s %AssetType{"Layer"}
 		VarArray %Dependencies{}
 		Uuid %DocumentID{u4{5597123156525594527,5700435686565940900}}
-		u4 %Hash{15234084611984135965}
+		u4 %Hash{5385884129745481676}
 		VarArray %MetaInfo{}
 		VarArray %Outputs{}
 		VarArray %PackageDeps
@@ -177,7 +177,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -303,7 +302,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -331,7 +329,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -382,7 +379,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -410,7 +406,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ c22f2cdb-cfee-4015-9b1b-4da94b2f4652 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -435,6 +430,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -473,7 +469,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -498,6 +493,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4ed28a7d-884d-4604-ac2b-1bceeeeadd2c }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -536,6 +532,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4ed28a7d-884d-4604-ac2b-1bceeeeadd2c }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -594,6 +591,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 2435016a-0782-8cb7-42cf-0abff6278f8a }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -635,7 +633,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -660,6 +657,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4ed28a7d-884d-4604-ac2b-1bceeeeadd2c }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -698,6 +696,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -713,7 +712,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -741,7 +739,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -812,6 +809,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4ed28a7d-884d-4604-ac2b-1bceeeeadd2c }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -824,6 +822,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -839,7 +838,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -890,7 +888,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ e2e0c08d-81d9-41bb-8275-67dc12f09ab7 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x00008040}
@@ -964,7 +961,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ c22f2cdb-cfee-4015-9b1b-4da94b2f4652 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -1012,6 +1008,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4ed28a7d-884d-4604-ac2b-1bceeeeadd2c }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -1119,7 +1116,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -1199,7 +1195,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ c22f2cdb-cfee-4015-9b1b-4da94b2f4652 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -1227,7 +1222,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ f4941446-789b-4faf-8322-ef8f7a80f3c7 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -1255,7 +1249,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ c22f2cdb-cfee-4015-9b1b-4da94b2f4652 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -1283,7 +1276,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ c22f2cdb-cfee-4015-9b1b-4da94b2f4652 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -1311,7 +1303,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -1365,7 +1356,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 4ba563bf-6758-4e84-abec-bdcd65036aef }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -1439,6 +1429,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 0e1d504a-5621-4647-843f-1e785b0b8864 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -1451,6 +1442,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4ed28a7d-884d-4604-ac2b-1bceeeeadd2c }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -1463,6 +1455,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1e8989c5-cf85-463e-8cf4-7f8bf41aeadd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -1504,7 +1497,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -1581,6 +1573,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1e8989c5-cf85-463e-8cf4-7f8bf41aeadd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -1668,6 +1661,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1e8989c5-cf85-463e-8cf4-7f8bf41aeadd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -1732,7 +1726,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -1786,7 +1779,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ f4941446-789b-4faf-8322-ef8f7a80f3c7 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -1860,6 +1852,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ f82eecc6-30ee-8b97-4119-803d88c963b1 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -1947,6 +1940,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -2011,7 +2005,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ c22f2cdb-cfee-4015-9b1b-4da94b2f4652 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -2036,6 +2029,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4ed28a7d-884d-4604-ac2b-1bceeeeadd2c }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -2071,6 +2065,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -2118,7 +2113,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -2198,6 +2192,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4ed28a7d-884d-4604-ac2b-1bceeeeadd2c }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -2233,6 +2228,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 7a0ade70-ba7d-4552-9cfa-0c96e77a1375 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -2248,7 +2244,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -2276,7 +2271,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -2327,6 +2321,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 2435016a-0782-8cb7-42cf-0abff6278f8a }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -2342,7 +2337,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ c22f2cdb-cfee-4015-9b1b-4da94b2f4652 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -2370,7 +2364,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -2395,6 +2388,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4346cfcb-fc71-88f6-1813-2c162828c527 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -2557,7 +2551,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ f4941446-789b-4faf-8322-ef8f7a80f3c7 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -2634,7 +2627,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -2659,6 +2651,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4ed28a7d-884d-4604-ac2b-1bceeeeadd2c }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -2674,7 +2667,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -2722,6 +2714,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4ed28a7d-884d-4604-ac2b-1bceeeeadd2c }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -2760,6 +2753,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -2772,6 +2766,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1e8989c5-cf85-463e-8cf4-7f8bf41aeadd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -2787,7 +2782,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -2812,6 +2806,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -2853,7 +2848,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ f4941446-789b-4faf-8322-ef8f7a80f3c7 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -2930,6 +2924,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -2991,6 +2986,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -3026,6 +3022,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1e8989c5-cf85-463e-8cf4-7f8bf41aeadd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -3064,7 +3061,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ c22f2cdb-cfee-4015-9b1b-4da94b2f4652 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -3089,6 +3085,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4ed28a7d-884d-4604-ac2b-1bceeeeadd2c }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -3127,7 +3124,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -3230,7 +3226,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ f4941446-789b-4faf-8322-ef8f7a80f3c7 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -3284,7 +3279,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -3332,6 +3326,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1e8989c5-cf85-463e-8cf4-7f8bf41aeadd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -3347,7 +3342,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -3401,7 +3395,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ c22f2cdb-cfee-4015-9b1b-4da94b2f4652 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -3498,6 +3491,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -3513,7 +3507,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -3541,7 +3534,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -3785,6 +3777,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 216bcd49-35b6-4e2c-a1ef-d1a42f64e464 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -3797,6 +3790,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 216bcd49-35b6-4e2c-a1ef-d1a42f64e464 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -3876,7 +3870,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ c22f2cdb-cfee-4015-9b1b-4da94b2f4652 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -3904,7 +3897,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -3958,7 +3950,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -4041,7 +4032,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -4116,6 +4106,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 7a0ade70-ba7d-4552-9cfa-0c96e77a1375 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -4178,6 +4169,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -4216,22 +4208,27 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4ed28a7d-884d-4604-ac2b-1bceeeeadd2c }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
 {
 	Uuid %id{u4{12355879486333709990,5232724278487140320}}
 	s %t{"ezSpotLightComponent"}
-	u3 %v{3}
+	u3 %v{4}
 	p
 	{
 		b %Active{1}
 		b %CastShadows{0}
 		f %ConstantBias{0xCDCCCC3D}
+		s %Cookie{""}
 		ColorGamma %EffectiveColor{u1{255,255,255,255}}
 		Angle %InnerSpotAngle{f{0x920A063F}}
 		f %Intensity{0x00009643}
 		ColorGamma %LightColor{u1{255,17,0,255}}
+		s %Material{""}
+		u3 %MaterialResolution{512}
+		Time %MaterialUpdateInterval{d{0}}
 		Angle %OuterSpotAngle{f{0xDB0FC93F}}
 		f %PenumbraSize{0xCDCCCC3D}
 		f %Range{0x0000A041}
@@ -4305,7 +4302,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -4582,6 +4578,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -4643,7 +4640,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -4788,6 +4784,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -4803,7 +4800,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -4926,7 +4922,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 567982f6-3534-42a7-b89e-abb388a29827 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x00008040}
@@ -4951,6 +4946,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -4989,7 +4985,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -5017,7 +5012,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -5133,6 +5127,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -5171,7 +5166,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -5242,6 +5236,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4ed28a7d-884d-4604-ac2b-1bceeeeadd2c }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -5257,7 +5252,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ f4941446-789b-4faf-8322-ef8f7a80f3c7 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -5285,7 +5279,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -5336,7 +5329,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ c22f2cdb-cfee-4015-9b1b-4da94b2f4652 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -5364,7 +5356,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ c22f2cdb-cfee-4015-9b1b-4da94b2f4652 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -5392,7 +5383,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -5446,7 +5436,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 4ba563bf-6758-4e84-abec-bdcd65036aef }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -5569,6 +5558,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4ed28a7d-884d-4604-ac2b-1bceeeeadd2c }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -5581,6 +5571,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -5596,7 +5587,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -5847,7 +5837,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ f4941446-789b-4faf-8322-ef8f7a80f3c7 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -5872,6 +5861,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4ed28a7d-884d-4604-ac2b-1bceeeeadd2c }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -5933,6 +5923,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1e8989c5-cf85-463e-8cf4-7f8bf41aeadd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -5948,7 +5939,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 4ba563bf-6758-4e84-abec-bdcd65036aef }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -5976,7 +5966,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -6027,7 +6016,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -6055,7 +6043,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ c22f2cdb-cfee-4015-9b1b-4da94b2f4652 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -6106,6 +6093,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1e8989c5-cf85-463e-8cf4-7f8bf41aeadd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -6121,7 +6109,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ f4941446-789b-4faf-8322-ef8f7a80f3c7 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -6146,6 +6133,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1e8989c5-cf85-463e-8cf4-7f8bf41aeadd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -6233,6 +6221,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1e8989c5-cf85-463e-8cf4-7f8bf41aeadd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -6361,6 +6350,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 7a0ade70-ba7d-4552-9cfa-0c96e77a1375 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -6376,7 +6366,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -6427,6 +6416,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -6566,6 +6556,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -6581,7 +6572,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ f4941446-789b-4faf-8322-ef8f7a80f3c7 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -6776,7 +6766,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -6836,7 +6825,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -6864,7 +6852,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -6889,6 +6876,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -6924,6 +6912,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4ed28a7d-884d-4604-ac2b-1bceeeeadd2c }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -6939,7 +6928,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -6967,7 +6955,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -7021,7 +7008,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -7046,6 +7032,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 2435016a-0782-8cb7-42cf-0abff6278f8a }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -7130,7 +7117,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -7181,6 +7167,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4ed28a7d-884d-4604-ac2b-1bceeeeadd2c }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -7222,7 +7209,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ c22f2cdb-cfee-4015-9b1b-4da94b2f4652 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -7250,7 +7236,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -7275,6 +7260,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1e8989c5-cf85-463e-8cf4-7f8bf41aeadd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -7287,6 +7273,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -7348,6 +7335,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4ed28a7d-884d-4604-ac2b-1bceeeeadd2c }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -7360,6 +7348,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4ed28a7d-884d-4604-ac2b-1bceeeeadd2c }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -7395,6 +7384,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -7508,7 +7498,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ c22f2cdb-cfee-4015-9b1b-4da94b2f4652 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -7556,6 +7545,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -7571,7 +7561,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -7619,6 +7608,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1e8989c5-cf85-463e-8cf4-7f8bf41aeadd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -7634,7 +7624,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ f90ad869-6f1f-4ce8-8840-1082b8758ae2 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x00008040}
@@ -7662,7 +7651,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -7690,7 +7678,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -7764,7 +7751,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ c22f2cdb-cfee-4015-9b1b-4da94b2f4652 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -7933,6 +7919,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 09697277-430f-46ea-8c1d-04ba206fa919 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -7948,7 +7935,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -7976,7 +7962,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ f4941446-789b-4faf-8322-ef8f7a80f3c7 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -8001,6 +7986,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ ffd8d5b7-a1ad-928b-2c58-b1c67d605d6d }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8013,6 +7999,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4ed28a7d-884d-4604-ac2b-1bceeeeadd2c }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8028,7 +8015,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ c22f2cdb-cfee-4015-9b1b-4da94b2f4652 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -8082,7 +8068,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -8110,7 +8095,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ f4941446-789b-4faf-8322-ef8f7a80f3c7 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -8138,7 +8122,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 4ba563bf-6758-4e84-abec-bdcd65036aef }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -8267,6 +8250,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 6e3c3690-99f0-874b-1476-a05e7a0defbb }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8294,6 +8278,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 21340cfa-3896-874a-1863-f15b11f1a00e }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8306,6 +8291,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 071c627e-2e18-931a-42a6-3d5c22a78088 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8318,6 +8304,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 793fd084-2ded-950d-0bfc-6d0dc8850db4 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8356,6 +8343,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 731a4ef3-fffd-87a4-07d2-26639dc9715d }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8368,6 +8356,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1676f0d1-5fcd-4c56-9a0b-3fd0d9105925 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8380,6 +8369,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8433,6 +8423,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 216bcd49-35b6-4e2c-a1ef-d1a42f64e464 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8538,6 +8529,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ e11cb544-2b7c-44b9-8bd8-b37be7bec7b0 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8550,6 +8542,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 0a718834-0e5d-930b-3132-e477b3c22a61 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8562,6 +8555,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 7d0122e9-98e6-4c07-8d05-e46e2facaa99 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8574,6 +8568,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ f1367852-087d-4477-93a1-22d727b12530 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8664,6 +8659,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 23b9dacd-3e6a-918d-1245-069c4de26913 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8676,6 +8672,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 793fd084-2ded-950d-0bfc-6d0dc8850db4 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8714,6 +8711,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 6e3c3690-99f0-874b-1476-a05e7a0defbb }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8778,6 +8776,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ dacbb8d2-4180-948d-4354-9af5500515ab }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -8816,6 +8815,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 75d7e2de-c61d-8bfe-0eb5-7fa28190670f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9030,6 +9030,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 2def52c6-46e4-944a-3d21-17fcf58f2c76 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9042,6 +9043,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 23b9dacd-3e6a-918d-1245-069c4de26913 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9106,6 +9108,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ e22c84a8-5f61-4b46-92b8-e85ddb630554 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9118,6 +9121,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 5c77d477-f7a8-40f9-ad7d-f1a13988fae1 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9156,6 +9160,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1e8989c5-cf85-463e-8cf4-7f8bf41aeadd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9168,6 +9173,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 3be5ed2a-1ee7-888e-1785-9d80edc6c3af }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9180,6 +9186,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1676f0d1-5fcd-4c56-9a0b-3fd0d9105925 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9267,6 +9274,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 107b9434-8cb2-4554-888b-7f2cb6023cc7 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9331,6 +9339,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9346,7 +9355,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -9371,6 +9379,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9409,6 +9418,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 75d7e2de-c61d-8bfe-0eb5-7fa28190670f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9436,6 +9446,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 247f154a-4866-8d99-1331-790f6fc2b1a0 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9451,7 +9462,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -9528,6 +9538,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 8b9dff43-cb05-4bef-820e-72afc73f4dbd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9566,6 +9577,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ df3ed127-ac8a-8ae5-24c1-2983154c80b0 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9682,6 +9694,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ e377e56f-0e1e-872f-31c1-102707d7aec9 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9798,7 +9811,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -9823,6 +9835,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ e22c84a8-5f61-4b46-92b8-e85ddb630554 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -9887,6 +9900,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 7d166c03-f05d-8c29-422a-d72ff910da9b }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10001,6 +10015,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 21340cfa-3896-874a-1863-f15b11f1a00e }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10013,6 +10028,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 7d0122e9-98e6-4c07-8d05-e46e2facaa99 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10025,6 +10041,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10037,6 +10054,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 88d73127-2771-967c-1bb8-cd5a541cddbd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10072,6 +10090,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ e2b5a91e-9448-4e75-9aa5-85ffb0c32ce9 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10110,6 +10129,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 6e3c3690-99f0-874b-1476-a05e7a0defbb }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10122,6 +10142,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 814b5776-7216-4e01-a3f0-21ca9041f572 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10157,6 +10178,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 57968757-6796-88b3-2d18-8471fb3d6082 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10195,6 +10217,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ e22c84a8-5f61-4b46-92b8-e85ddb630554 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10233,6 +10256,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 46bce6e6-2df7-8761-35fa-cd4ce051cadb }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10274,7 +10298,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -10299,6 +10322,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10451,6 +10475,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4fa8795d-59c3-8d59-140a-82cd4b5be120 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10515,6 +10540,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4fa8795d-59c3-8d59-140a-82cd4b5be120 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10556,7 +10582,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -10630,6 +10655,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 8434fbf9-8dd1-9305-166b-952ba6f3cb19 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10642,6 +10668,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ dacbb8d2-4180-948d-4354-9af5500515ab }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10654,6 +10681,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ c5601692-1435-490a-bdde-2f8d182f9cae }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10695,7 +10723,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -10720,6 +10747,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 46bce6e6-2df7-8761-35fa-cd4ce051cadb }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10758,6 +10786,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 14f6387a-fada-88a9-2c49-45bbf0fb885e }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10770,6 +10799,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 49525e10-1b27-8f2f-2ca7-96ab503de281 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10834,6 +10864,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 352ec460-37e5-878c-1cc4-015188831f64 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10846,6 +10877,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ da234b2c-74e5-8bb3-0881-07ea5434a5f8 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10858,6 +10890,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ f449df53-03b9-47ab-9b4b-d830d5ee596d }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10870,6 +10903,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4346cfcb-fc71-88f6-1813-2c162828c527 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10885,7 +10919,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -10985,6 +11018,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4ed28a7d-884d-4604-ac2b-1bceeeeadd2c }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -10997,6 +11031,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ e7f1afc8-6ccf-9609-0c0d-01c90c241c6b }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -11012,7 +11047,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -11121,6 +11155,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 89f0ee80-c8d0-8b44-0811-262b7aa3a80f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -11159,6 +11194,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 5ec19205-1fe4-9551-2277-0e0ec23356b9 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -11171,6 +11207,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ f449df53-03b9-47ab-9b4b-d830d5ee596d }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -11183,6 +11220,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 8eb9eba0-a1c8-9071-26f6-73bb82ce2496 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -11250,7 +11288,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ c22f2cdb-cfee-4015-9b1b-4da94b2f4652 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -11301,6 +11338,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 3be5ed2a-1ee7-888e-1785-9d80edc6c3af }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -11365,6 +11403,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 88d73127-2771-967c-1bb8-cd5a541cddbd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -11452,6 +11491,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4ed28a7d-884d-4604-ac2b-1bceeeeadd2c }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -11490,6 +11530,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4ed28a7d-884d-4604-ac2b-1bceeeeadd2c }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -11502,6 +11543,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4346cfcb-fc71-88f6-1813-2c162828c527 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -11693,6 +11735,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 6c57b4fe-ca7b-93c2-2cdf-96595e8be12a }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -11731,6 +11774,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 2435016a-0782-8cb7-42cf-0abff6278f8a }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -11743,6 +11787,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 2435016a-0782-8cb7-42cf-0abff6278f8a }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -11784,7 +11829,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -11864,7 +11908,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ c22f2cdb-cfee-4015-9b1b-4da94b2f4652 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -11889,6 +11932,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -11953,6 +11997,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 2435016a-0782-8cb7-42cf-0abff6278f8a }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -12011,6 +12056,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 00a41a56-69ad-91a0-406f-6620fb097d70 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -12046,6 +12092,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 46bce6e6-2df7-8761-35fa-cd4ce051cadb }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -12058,6 +12105,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -12144,7 +12192,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ c22f2cdb-cfee-4015-9b1b-4da94b2f4652 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -12172,7 +12219,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ f4941446-789b-4faf-8322-ef8f7a80f3c7 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -12200,7 +12246,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -12248,6 +12293,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1e8989c5-cf85-463e-8cf4-7f8bf41aeadd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -12283,6 +12329,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1e8989c5-cf85-463e-8cf4-7f8bf41aeadd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -12298,7 +12345,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -12352,7 +12398,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 4ba563bf-6758-4e84-abec-bdcd65036aef }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -12501,6 +12546,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1e8989c5-cf85-463e-8cf4-7f8bf41aeadd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -12562,6 +12608,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1e8989c5-cf85-463e-8cf4-7f8bf41aeadd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -12609,7 +12656,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ c22f2cdb-cfee-4015-9b1b-4da94b2f4652 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -12637,7 +12683,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -12691,7 +12736,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -12716,6 +12760,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1e8989c5-cf85-463e-8cf4-7f8bf41aeadd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -12832,7 +12877,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ c22f2cdb-cfee-4015-9b1b-4da94b2f4652 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -12935,6 +12979,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -12973,6 +13018,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -13031,6 +13077,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -13043,6 +13090,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 7a0ade70-ba7d-4552-9cfa-0c96e77a1375 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -13081,7 +13129,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -13109,7 +13156,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -13209,7 +13255,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ c22f2cdb-cfee-4015-9b1b-4da94b2f4652 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -13257,6 +13302,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 2435016a-0782-8cb7-42cf-0abff6278f8a }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -13295,7 +13341,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -13323,7 +13368,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -13374,6 +13418,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -13389,7 +13434,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -13417,7 +13461,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -13442,6 +13485,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4ed28a7d-884d-4604-ac2b-1bceeeeadd2c }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -13549,6 +13593,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4ed28a7d-884d-4604-ac2b-1bceeeeadd2c }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -13561,6 +13606,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1e8989c5-cf85-463e-8cf4-7f8bf41aeadd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -13576,7 +13622,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -13601,6 +13646,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 2435016a-0782-8cb7-42cf-0abff6278f8a }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -13616,7 +13662,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -13644,7 +13689,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -13669,6 +13713,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -13822,6 +13867,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4ed28a7d-884d-4604-ac2b-1bceeeeadd2c }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -13837,7 +13883,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ c22f2cdb-cfee-4015-9b1b-4da94b2f4652 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -13891,7 +13936,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -13919,7 +13963,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ f4941446-789b-4faf-8322-ef8f7a80f3c7 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -13967,6 +14010,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4ed28a7d-884d-4604-ac2b-1bceeeeadd2c }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -14057,7 +14101,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -14111,7 +14154,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ c22f2cdb-cfee-4015-9b1b-4da94b2f4652 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -14136,6 +14178,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -14151,7 +14194,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -14176,6 +14218,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -14188,6 +14231,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -14203,7 +14247,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -14254,6 +14297,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4ed28a7d-884d-4604-ac2b-1bceeeeadd2c }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -14266,6 +14310,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 793fd084-2ded-950d-0bfc-6d0dc8850db4 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -14327,6 +14372,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 071c627e-2e18-931a-42a6-3d5c22a78088 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -14440,7 +14486,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ d041c99f-e9d5-4719-b279-0b70ae669acf }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x00008040}
@@ -14517,7 +14562,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -14591,7 +14635,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 4ba563bf-6758-4e84-abec-bdcd65036aef }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -14616,6 +14659,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1676f0d1-5fcd-4c56-9a0b-3fd0d9105925 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -14770,6 +14814,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 7d166c03-f05d-8c29-422a-d72ff910da9b }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -14785,7 +14830,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ c22f2cdb-cfee-4015-9b1b-4da94b2f4652 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -14917,7 +14961,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ f4941446-789b-4faf-8322-ef8f7a80f3c7 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -14945,7 +14988,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ f4941446-789b-4faf-8322-ef8f7a80f3c7 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -14970,6 +15012,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -15034,7 +15077,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -15059,6 +15101,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 21340cfa-3896-874a-1863-f15b11f1a00e }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -15097,6 +15140,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -15135,6 +15179,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ e377e56f-0e1e-872f-31c1-102707d7aec9 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -15150,7 +15195,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -15175,6 +15219,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1e8989c5-cf85-463e-8cf4-7f8bf41aeadd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -15210,6 +15255,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1e8989c5-cf85-463e-8cf4-7f8bf41aeadd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -15321,6 +15367,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 3be5ed2a-1ee7-888e-1785-9d80edc6c3af }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -15359,6 +15406,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4fa8795d-59c3-8d59-140a-82cd4b5be120 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -15371,6 +15419,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ df3ed127-ac8a-8ae5-24c1-2983154c80b0 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -15412,7 +15461,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -15463,6 +15511,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ f82eecc6-30ee-8b97-4119-803d88c963b1 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -15530,7 +15579,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ c22f2cdb-cfee-4015-9b1b-4da94b2f4652 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -15604,6 +15652,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 028747cf-0017-455f-a817-a4bd203e1dad }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -15648,6 +15697,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4ed28a7d-884d-4604-ac2b-1bceeeeadd2c }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -15718,6 +15768,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 8434fbf9-8dd1-9305-166b-952ba6f3cb19 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -15756,6 +15807,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 5c77d477-f7a8-40f9-ad7d-f1a13988fae1 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -15771,7 +15823,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -15822,6 +15873,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4ed28a7d-884d-4604-ac2b-1bceeeeadd2c }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -15860,6 +15912,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 0e919ce3-557a-888c-1a39-d55aa0ecc425 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -15872,6 +15925,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 7a0ade70-ba7d-4552-9cfa-0c96e77a1375 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -15884,6 +15938,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ e22c84a8-5f61-4b46-92b8-e85ddb630554 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -15896,6 +15951,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 7d166c03-f05d-8c29-422a-d72ff910da9b }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -15934,6 +15990,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4346cfcb-fc71-88f6-1813-2c162828c527 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -16041,6 +16098,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -16105,6 +16163,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 2435016a-0782-8cb7-42cf-0abff6278f8a }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -16195,7 +16254,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -16249,7 +16307,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -16274,6 +16331,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 88d73127-2771-967c-1bb8-cd5a541cddbd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -16289,7 +16347,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -16314,6 +16371,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 0ee6314c-4086-8d39-1496-5cda13d7a804 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -16378,7 +16436,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ c22f2cdb-cfee-4015-9b1b-4da94b2f4652 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -16403,6 +16460,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -16467,6 +16525,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 0e919ce3-557a-888c-1a39-d55aa0ecc425 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -16505,6 +16564,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ f82eecc6-30ee-8b97-4119-803d88c963b1 }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -16637,6 +16697,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 2435016a-0782-8cb7-42cf-0abff6278f8a }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -16649,6 +16710,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -16664,7 +16726,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -16738,6 +16799,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -16750,6 +16812,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 2435016a-0782-8cb7-42cf-0abff6278f8a }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -16811,6 +16874,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4ed28a7d-884d-4604-ac2b-1bceeeeadd2c }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -16826,7 +16890,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ c22f2cdb-cfee-4015-9b1b-4da94b2f4652 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -16851,6 +16914,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4ed28a7d-884d-4604-ac2b-1bceeeeadd2c }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -16889,6 +16953,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 46bce6e6-2df7-8761-35fa-cd4ce051cadb }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -16904,7 +16969,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ f4941446-789b-4faf-8322-ef8f7a80f3c7 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -16932,7 +16996,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -16983,6 +17046,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 2435016a-0782-8cb7-42cf-0abff6278f8a }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -17021,6 +17085,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 2435016a-0782-8cb7-42cf-0abff6278f8a }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -17082,6 +17147,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 2435016a-0782-8cb7-42cf-0abff6278f8a }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -17117,6 +17183,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1e8989c5-cf85-463e-8cf4-7f8bf41aeadd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -17132,7 +17199,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -17160,7 +17226,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ f4941446-789b-4faf-8322-ef8f7a80f3c7 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -17185,6 +17250,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1e8989c5-cf85-463e-8cf4-7f8bf41aeadd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -17223,6 +17289,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1e8989c5-cf85-463e-8cf4-7f8bf41aeadd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -17235,6 +17302,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 1e8989c5-cf85-463e-8cf4-7f8bf41aeadd }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -17403,7 +17471,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -17526,7 +17593,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ c22f2cdb-cfee-4015-9b1b-4da94b2f4652 }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -17606,6 +17672,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 009f3925-2883-4c89-9ca7-f979e1caac6f }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -17644,7 +17711,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -17672,7 +17738,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -17700,7 +17765,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -17728,7 +17792,6 @@ o
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
 		u3 %Detail{16}
 		b %GenerateCollision{0}
-		b %IncludeInNavmesh{0}
 		s %Material{"{ 47b2910e-74ed-4aa6-869b-20614f6d42ca }"}
 		s %Shape{"ezGreyBoxShape::Box"}
 		f %SizeNegX{0x0000803F}
@@ -17779,6 +17842,7 @@ o
 		b %Active{1}
 		VarDict %Parameters{}
 		s %Prefab{"{ 4ed28a7d-884d-4604-ac2b-1bceeeeadd2c }"}
+		b %ShowShapeIcons{0}
 	}
 }
 o
@@ -18428,7 +18492,7 @@ o
 		s %PluginName{"Static"}
 		VarArray %Properties{}
 		s %TypeName{"ezSpotLightComponent"}
-		u3 %TypeVersion{3}
+		u3 %TypeVersion{4}
 	}
 }
 o

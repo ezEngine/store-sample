@@ -11,14 +11,19 @@ o
 		s %AssetType{"Surface"}
 		VarArray %Dependencies{}
 		Uuid %DocumentID{u4{5257683838109301895,5085278606372844307}}
-		u4 %Hash{9764976371490509494}
+		u4 %Hash{4419048398288072289}
 		VarArray %MetaInfo{}
 		VarArray %Outputs{}
-		VarArray %References
+		VarArray %PackageDeps
 		{
 			s{"{ 0a105955-e069-4523-80ce-7b9867bde687 }"}
 			s{"{ 566724e7-dbf2-4b54-ab9f-32f71361fd9b }"}
 		}
+		VarArray %References
+		{
+			s{"{ 0a105955-e069-4523-80ce-7b9867bde687 }"}
+		}
+		s %Tags{""}
 	}
 }
 }
@@ -35,6 +40,7 @@ o
 		Angle %Deviation{f{0}}
 		f %ImpulseScale{0x0000803F}
 		f %ImpulseThreshold{0}
+		VarDict %Parameters{}
 		s %Prefab{"{ 566724e7-dbf2-4b54-ab9f-32f71361fd9b }"}
 		s %Type{"Footstep_Robot"}
 	}
@@ -48,6 +54,7 @@ o
 	{
 		s %BaseSurface{"{ 0a105955-e069-4523-80ce-7b9867bde687 }"}
 		f %DynamicFriction{0xCDCC4C3E}
+		i1 %GroundType{-1}
 		VarArray %Interactions
 		{
 			Uuid{u4{15710088227306008992,4907290151430009859}}

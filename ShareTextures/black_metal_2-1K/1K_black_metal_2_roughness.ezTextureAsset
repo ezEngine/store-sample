@@ -14,10 +14,18 @@ o
 			s{"ShareTextures/black_metal_2-1K/1K_black_metal_2_roughness.jpg"}
 		}
 		Uuid %DocumentID{u4{3385780801845176762,5734452303163847443}}
-		u4 %Hash{6914898201655740271}
+		u4 %Hash{9316668257065900089}
 		VarArray %MetaInfo{}
-		VarArray %Outputs{}
-		VarArray %References{}
+		VarArray %Outputs
+		{
+			s{"LOWRES"}
+		}
+		VarArray %PackageDeps{}
+		VarArray %References
+		{
+			s{"ShareTextures/black_metal_2-1K/1K_black_metal_2_roughness.jpg"}
+		}
+		s %Tags{""}
 	}
 }
 }

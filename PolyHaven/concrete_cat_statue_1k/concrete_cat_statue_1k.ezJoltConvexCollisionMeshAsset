@@ -11,10 +11,11 @@ o
 		s %AssetType{"Jolt_Colmesh_Convex"}
 		VarArray %Dependencies
 		{
+			s{"PolyHaven/concrete_cat_statue_1k/concrete_cat_statue.bin"}
 			s{"PolyHaven/concrete_cat_statue_1k/concrete_cat_statue_1k.gltf"}
 		}
 		Uuid %DocumentID{u4{14633502869359084463,5253960981613941427}}
-		u4 %Hash{16581584467854983327}
+		u4 %Hash{10489561429931407993}
 		VarArray %MetaInfo{}
 		VarArray %Outputs{}
 		VarArray %PackageDeps{}
@@ -32,7 +33,7 @@ o
 {
 	Uuid %id{u4{2547233163157692851,5166821441052549396}}
 	s %t{"ezJoltCollisionMeshAssetProperties"}
-	u3 %v{1}
+	u3 %v{2}
 	p
 	{
 		b %AggressiveSimplification{1}
@@ -40,10 +41,13 @@ o
 		u1 %Detail{1}
 		b %FlipForwardDir{1}
 		f %Height{0x0000803F}
+		s %ImportTransform{"ezMeshImportTransform::Custom"}
 		b %IsConvexMesh{1}
 		u2 %MaxConvexPieces{5}
 		u1 %MaxSimplificationError{20}
+		s %MeshExcludeTags{""}
 		s %MeshFile{"PolyHaven/concrete_cat_statue_1k/concrete_cat_statue_1k.gltf"}
+		s %MeshIncludeTags{""}
 		u1 %MeshSimplification{100}
 		f %Radius{0x0000003F}
 		f %Radius2{0x0000003F}
@@ -120,7 +124,7 @@ o
 		s %PluginName{"ezEditorPluginJolt"}
 		VarArray %Properties{}
 		s %TypeName{"ezJoltCollisionMeshAssetProperties"}
-		u3 %TypeVersion{1}
+		u3 %TypeVersion{2}
 	}
 }
 o
@@ -137,6 +141,23 @@ o
 		s %PluginName{"Static"}
 		VarArray %Properties{}
 		s %TypeName{"ezDocumentRoot"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{16959510582460493866,8962221111705621108}}
+	s %t{"ezReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"ezTypeFlags::IsEnum|ezTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"ezEnumBase"}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"ezMeshImportTransform"}
 		u3 %TypeVersion{1}
 	}
 }

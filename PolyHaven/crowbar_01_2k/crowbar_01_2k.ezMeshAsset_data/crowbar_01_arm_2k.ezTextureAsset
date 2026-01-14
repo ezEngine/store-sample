@@ -14,10 +14,18 @@ o
 			s{"PolyHaven/crowbar_01_2k/textures/crowbar_01_arm_2k.jpg"}
 		}
 		Uuid %DocumentID{u4{17829797735897561740,4962768744550394679}}
-		u4 %Hash{18350408620239103554}
+		u4 %Hash{7732075896927804680}
 		VarArray %MetaInfo{}
-		VarArray %Outputs{}
-		VarArray %References{}
+		VarArray %Outputs
+		{
+			s{"LOWRES"}
+		}
+		VarArray %PackageDeps{}
+		VarArray %References
+		{
+			s{"PolyHaven/crowbar_01_2k/textures/crowbar_01_arm_2k.jpg"}
+		}
+		s %Tags{""}
 	}
 }
 }

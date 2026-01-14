@@ -14,13 +14,18 @@ o
 			s{"Free3D/Generator/Emergency_Backup_Generator-(FBX 7.4 binary mit Animation).fbx"}
 		}
 		Uuid %DocumentID{u4{7688419425829162150,5218452471670804035}}
-		u4 %Hash{18339712809586553774}
+		u4 %Hash{10704373178551429329}
 		VarArray %MetaInfo{}
 		VarArray %Outputs{}
-		VarArray %References
+		VarArray %PackageDeps
 		{
 			s{"{ 72115f7a-5947-4a21-899f-868368bd41d7 }"}
 		}
+		VarArray %References
+		{
+			s{"Free3D/Generator/Emergency_Backup_Generator-(FBX 7.4 binary mit Animation).fbx"}
+		}
+		s %Tags{""}
 	}
 }
 }
@@ -30,19 +35,26 @@ o
 {
 	Uuid %id{u4{2765854678669733505,5244448894989062410}}
 	s %t{"ezJoltCollisionMeshAssetProperties"}
-	u3 %v{1}
+	u3 %v{2}
 	p
 	{
+		b %AggressiveSimplification{0}
 		s %ConvexMeshType{"ezJoltConvexCollisionMeshType::ConvexHull"}
 		u1 %Detail{1}
 		b %FlipForwardDir{0}
 		f %Height{0x0000803F}
+		s %ImportTransform{"ezMeshImportTransform::Custom"}
 		b %IsConvexMesh{1}
 		u2 %MaxConvexPieces{5}
+		u1 %MaxSimplificationError{20}
+		s %MeshExcludeTags{""}
 		s %MeshFile{"Free3D/Generator/Emergency_Backup_Generator-(FBX 7.4 binary mit Animation).fbx"}
+		s %MeshIncludeTags{""}
+		u1 %MeshSimplification{50}
 		f %Radius{0x0000003F}
 		f %Radius2{0x0000003F}
 		s %RightDir{"ezBasisAxis::PositiveX"}
+		b %SimplifyMesh{0}
 		s %Surface{"{ 72115f7a-5947-4a21-899f-868368bd41d7 }"}
 		VarArray %Surfaces{}
 		f %UniformScaling{0x0000803F}
@@ -114,7 +126,7 @@ o
 		s %PluginName{"ezEditorPluginJolt"}
 		VarArray %Properties{}
 		s %TypeName{"ezJoltCollisionMeshAssetProperties"}
-		u3 %TypeVersion{1}
+		u3 %TypeVersion{2}
 	}
 }
 o
@@ -131,6 +143,23 @@ o
 		s %PluginName{"Static"}
 		VarArray %Properties{}
 		s %TypeName{"ezDocumentRoot"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{16959510582460493866,8962221111705621108}}
+	s %t{"ezReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"ezTypeFlags::IsEnum|ezTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"ezEnumBase"}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"ezMeshImportTransform"}
 		u3 %TypeVersion{1}
 	}
 }

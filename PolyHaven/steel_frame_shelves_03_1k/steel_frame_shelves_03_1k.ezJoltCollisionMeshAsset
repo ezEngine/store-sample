@@ -11,10 +11,11 @@ o
 		s %AssetType{"Jolt_Colmesh_Triangle"}
 		VarArray %Dependencies
 		{
+			s{"PolyHaven/steel_frame_shelves_03_1k/steel_frame_shelves_03.bin"}
 			s{"PolyHaven/steel_frame_shelves_03_1k/steel_frame_shelves_03_1k.gltf"}
 		}
 		Uuid %DocumentID{u4{13331873209421756300,4836969391096108960}}
-		u4 %Hash{10318446950748663927}
+		u4 %Hash{12015834364024235969}
 		VarArray %MetaInfo{}
 		VarArray %Outputs{}
 		VarArray %PackageDeps{}
@@ -32,7 +33,7 @@ o
 {
 	Uuid %id{u4{6210714749088589716,4630930431888472388}}
 	s %t{"ezJoltCollisionMeshAssetProperties"}
-	u3 %v{1}
+	u3 %v{2}
 	p
 	{
 		b %AggressiveSimplification{0}
@@ -40,10 +41,13 @@ o
 		u1 %Detail{1}
 		b %FlipForwardDir{0}
 		f %Height{0x0000803F}
+		s %ImportTransform{"ezMeshImportTransform::Custom"}
 		b %IsConvexMesh{0}
 		u2 %MaxConvexPieces{5}
 		u1 %MaxSimplificationError{20}
+		s %MeshExcludeTags{""}
 		s %MeshFile{"PolyHaven/steel_frame_shelves_03_1k/steel_frame_shelves_03_1k.gltf"}
+		s %MeshIncludeTags{""}
 		u1 %MeshSimplification{100}
 		f %Radius{0x0000003F}
 		f %Radius2{0x0000003F}
@@ -148,7 +152,7 @@ o
 		s %PluginName{"ezEditorPluginJolt"}
 		VarArray %Properties{}
 		s %TypeName{"ezJoltCollisionMeshAssetProperties"}
-		u3 %TypeVersion{1}
+		u3 %TypeVersion{2}
 	}
 }
 o
@@ -165,6 +169,23 @@ o
 		s %PluginName{"Static"}
 		VarArray %Properties{}
 		s %TypeName{"ezDocumentRoot"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{16959510582460493866,8962221111705621108}}
+	s %t{"ezReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"ezTypeFlags::IsEnum|ezTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"ezEnumBase"}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"ezMeshImportTransform"}
 		u3 %TypeVersion{1}
 	}
 }

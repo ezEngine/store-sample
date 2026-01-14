@@ -21,7 +21,7 @@ o
 		s %AssetType{"Prefab"}
 		VarArray %Dependencies{}
 		Uuid %DocumentID{u4{7001622646767235633,10595578341089183796}}
-		u4 %Hash{1448678882556129719}
+		u4 %Hash{9437175138655891621}
 		VarArray %MetaInfo
 		{
 			Uuid{u4{16329674072543549631,5603748846782696672}}
@@ -71,7 +71,7 @@ o
 {
 	Uuid %id{u4{4499610963806809771,5236969617331573363}}
 	s %t{"ezPointLightComponent"}
-	u3 %v{2}
+	u3 %v{3}
 	p
 	{
 		b %Active{1}
@@ -82,6 +82,7 @@ o
 		ColorGamma %LightColor{u1{255,255,255,255}}
 		f %PenumbraSize{0xCDCCCC3D}
 		f %Range{0x0000803F}
+		f %ShadowFadeOutRange{0}
 		f %SlopeBias{0x0000803E}
 		f %SpecularMultiplier{0x0000803F}
 		u3 %Temperature{1000}
@@ -414,7 +415,7 @@ o
 		s %PluginName{"Static"}
 		VarArray %Properties{}
 		s %TypeName{"ezPointLightComponent"}
-		u3 %TypeVersion{2}
+		u3 %TypeVersion{3}
 	}
 }
 o

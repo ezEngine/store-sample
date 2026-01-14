@@ -14,10 +14,18 @@ o
 			s{"PolyHaven/wooden_lantern_01_2k/textures/wooden_lantern_01_arm_2k.jpg"}
 		}
 		Uuid %DocumentID{u4{10778061095396030375,5194769018240186888}}
-		u4 %Hash{13278227314231080988}
+		u4 %Hash{2322831051085803679}
 		VarArray %MetaInfo{}
-		VarArray %Outputs{}
-		VarArray %References{}
+		VarArray %Outputs
+		{
+			s{"LOWRES"}
+		}
+		VarArray %PackageDeps{}
+		VarArray %References
+		{
+			s{"PolyHaven/wooden_lantern_01_2k/textures/wooden_lantern_01_arm_2k.jpg"}
+		}
+		s %Tags{""}
 	}
 }
 }

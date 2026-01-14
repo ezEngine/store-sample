@@ -11,10 +11,11 @@ o
 		s %AssetType{"Mesh"}
 		VarArray %Dependencies
 		{
+			s{"PolyHaven/brass_goblets_1k/brass_goblets.bin"}
 			s{"PolyHaven/brass_goblets_1k/brass_goblets_1k.gltf"}
 		}
 		Uuid %DocumentID{u4{5172139893260149665,5065676445433461686}}
-		u4 %Hash{7483897972415879047}
+		u4 %Hash{907369452342689145}
 		VarArray %MetaInfo{}
 		VarArray %Outputs{}
 		VarArray %PackageDeps
@@ -62,7 +63,7 @@ o
 {
 	Uuid %id{u4{8791358287675885483,5266043648913887429}}
 	s %t{"ezMeshAssetProperties"}
-	u3 %v{3}
+	u3 %v{5}
 	p
 	{
 		b %AggressiveSimplification{0}
@@ -73,7 +74,9 @@ o
 		u2 %Detail2{0}
 		b %FlipForwardDir{0}
 		f %Height{0x0000803F}
+		b %HighPrecision{0}
 		b %ImportMaterials{1}
+		s %ImportTransform{"ezMeshImportTransform::Custom"}
 		VarArray %Materials
 		{
 			Uuid{u4{8789689272906213303,4939415154244877330}}
@@ -81,9 +84,10 @@ o
 			Uuid{u4{2312976056138240941,5471074401153566145}}
 		}
 		u1 %MaxSimplificationError{5}
+		s %MeshExcludeTags{"$;UCX_"}
 		s %MeshFile{"PolyHaven/brass_goblets_1k/brass_goblets_1k.gltf"}
+		s %MeshIncludeTags{""}
 		u1 %MeshSimplification{50}
-		s %NormalPrecision{"ezMeshNormalPrecision::_10Bit"}
 		s %PrimitiveType{"ezMeshPrimitive::File"}
 		f %Radius{0x0000003F}
 		f %Radius2{0x0000003F}
@@ -91,7 +95,6 @@ o
 		b %RecalculateTangents{1}
 		s %RightDir{"ezBasisAxis::PositiveX"}
 		b %SimplifyMesh{1}
-		s %TexCoordPrecision{"ezMeshTexCoordPrecision::_16Bit"}
 		f %UniformScaling{0x0000803F}
 		s %UpDir{"ezBasisAxis::PositiveY"}
 		s %VertexColorConversion{"ezMeshVertexColorConversion::None"}
@@ -156,7 +159,7 @@ o
 		s %PluginName{"ezEditorPluginAssets"}
 		VarArray %Properties{}
 		s %TypeName{"ezMeshAssetProperties"}
-		u3 %TypeVersion{3}
+		u3 %TypeVersion{5}
 	}
 }
 o
@@ -173,6 +176,23 @@ o
 		s %PluginName{"Static"}
 		VarArray %Properties{}
 		s %TypeName{"ezDocumentRoot"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{16959510582460493866,8962221111705621108}}
+	s %t{"ezReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"ezTypeFlags::IsEnum|ezTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"ezEnumBase"}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"ezMeshImportTransform"}
 		u3 %TypeVersion{1}
 	}
 }
@@ -195,23 +215,6 @@ o
 }
 o
 {
-	Uuid %id{u4{3437852327385397451,11533535376753039907}}
-	s %t{"ezReflectedTypeDescriptor"}
-	u3 %v{1}
-	p
-	{
-		VarArray %Attributes{}
-		s %Flags{"ezTypeFlags::IsEnum|ezTypeFlags::Minimal"}
-		VarArray %Functions{}
-		s %ParentTypeName{"ezEnumBase"}
-		s %PluginName{"Static"}
-		VarArray %Properties{}
-		s %TypeName{"ezMeshTexCoordPrecision"}
-		u3 %TypeVersion{1}
-	}
-}
-o
-{
 	Uuid %id{u4{1149684950174857976,12897203947091760514}}
 	s %t{"ezReflectedTypeDescriptor"}
 	u3 %v{1}
@@ -224,23 +227,6 @@ o
 		s %PluginName{"Static"}
 		VarArray %Properties{}
 		s %TypeName{"ezMeshVertexColorConversion"}
-		u3 %TypeVersion{1}
-	}
-}
-o
-{
-	Uuid %id{u4{3566230308987241816,14467924040829974905}}
-	s %t{"ezReflectedTypeDescriptor"}
-	u3 %v{1}
-	p
-	{
-		VarArray %Attributes{}
-		s %Flags{"ezTypeFlags::IsEnum|ezTypeFlags::Minimal"}
-		VarArray %Functions{}
-		s %ParentTypeName{"ezEnumBase"}
-		s %PluginName{"Static"}
-		VarArray %Properties{}
-		s %TypeName{"ezMeshNormalPrecision"}
 		u3 %TypeVersion{1}
 	}
 }
