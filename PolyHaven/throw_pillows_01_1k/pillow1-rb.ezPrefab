@@ -21,7 +21,7 @@ o
 		s %AssetType{"Prefab"}
 		VarArray %Dependencies{}
 		Uuid %DocumentID{u4{17926048630399451459,9924594076985765858}}
-		u4 %Hash{5169520136301034770}
+		u4 %Hash{11374207274981654374}
 		VarArray %MetaInfo
 		{
 			Uuid{u4{17160079245302036411,5367012769133567434}}
@@ -81,6 +81,21 @@ o
 }
 o
 {
+	Uuid %id{u4{15774610140507839383,5420767301746625308}}
+	s %t{"ezMeshComponent"}
+	u3 %v{3}
+	p
+	{
+		b %Active{1}
+		Color %Color{f{0x0000803F,0x0000803F,0x0000803F,0x0000803F}}
+		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
+		VarArray %Materials{}
+		s %Mesh{"{ e5fc4a2d-f119-4182-9be7-8079662e8374 }"}
+		f %SortingDepthOffset{0}
+	}
+}
+o
+{
 	Uuid %id{u4{660423393653634985,5436451493842592148}}
 	s %t{"ezGameObject"}
 	u3 %v{1}
@@ -90,9 +105,9 @@ o
 		VarArray %Children{}
 		VarArray %Components
 		{
-			Uuid{u4{6813618513574265473,5694341820653658340}}
 			Uuid{u4{14710149125565749397,5696727125155724928}}
 			Uuid{u4{8034308527999539862,5336088626933011069}}
+			Uuid{u4{15774610140507839383,5420767301746625308}}
 		}
 		s %GlobalKey{""}
 		Vec3 %LocalPosition{f{0,0xD16B75BE,0}}
@@ -110,29 +125,15 @@ o
 }
 o
 {
-	Uuid %id{u4{6813618513574265473,5694341820653658340}}
-	s %t{"ezMeshComponent"}
-	u3 %v{3}
-	p
-	{
-		b %Active{1}
-		Color %Color{f{0x0000803F,0x0000803F,0x0000803F,0x0000803F}}
-		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
-		VarArray %Materials{}
-		s %Mesh{"{ e5fc4a2d-f119-4182-9be7-8079662e8374 }"}
-		f %SortingDepthOffset{0}
-	}
-}
-o
-{
 	Uuid %id{u4{14710149125565749397,5696727125155724928}}
 	s %t{"ezJoltDynamicActorComponent"}
-	u3 %v{7}
+	u3 %v{8}
 	p
 	{
 		b %Active{1}
 		b %AllowSleeping{1}
 		f %AngularDamping{0xCDCC4C3E}
+		f %BuoyancyFactor{0xCDCC8C3F}
 		Vec3 %CenterOfMass{f{0,0,0}}
 		u1 %CollisionLayer{0}
 		b %ContinuousCollisionDetection{0}
@@ -361,7 +362,7 @@ o
 		s %PluginName{"ezEditorPluginJolt"}
 		VarArray %Properties{}
 		s %TypeName{"ezJoltDynamicActorComponent"}
-		u3 %TypeVersion{7}
+		u3 %TypeVersion{8}
 	}
 }
 o

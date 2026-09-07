@@ -21,7 +21,7 @@ o
 		s %AssetType{"Prefab"}
 		VarArray %Dependencies{}
 		Uuid %DocumentID{u4{7001622646767235633,10595578341089183796}}
-		u4 %Hash{9437175138655891621}
+		u4 %Hash{917475718605291603}
 		VarArray %MetaInfo
 		{
 			Uuid{u4{16329674072543549631,5603748846782696672}}
@@ -30,10 +30,14 @@ o
 		VarArray %PackageDeps
 		{
 			s{"{ 331b1789-5142-4858-8970-978bb77623b1 }"}
+			s{"{ 5a829c01-7dc0-434d-bbe4-9a10d8426ae2 }"}
+			s{"{ 5cd82a67-f2d6-4b6a-8711-c9764294f525 }"}
 		}
 		VarArray %References
 		{
 			s{"{ 331b1789-5142-4858-8970-978bb77623b1 }"}
+			s{"{ 5a829c01-7dc0-434d-bbe4-9a10d8426ae2 }"}
+			s{"{ 5cd82a67-f2d6-4b6a-8711-c9764294f525 }"}
 		}
 		s %Tags{""}
 	}
@@ -41,6 +45,17 @@ o
 }
 Objects
 {
+o
+{
+	Uuid %id{u4{11648771783727351963,4809678832197829205}}
+	s %t{"ezLodMeshLod"}
+	u3 %v{2}
+	p
+	{
+		s %Mesh{"{ 5cd82a67-f2d6-4b6a-8711-c9764294f525 }"}
+		f %Threshold{0}
+	}
+}
 o
 {
 	Uuid %id{u4{566351816410028431,5111063606786503320}}
@@ -69,9 +84,43 @@ o
 }
 o
 {
+	Uuid %id{u4{3540264774218592677,5136587833720308203}}
+	s %t{"ezLodMeshComponent"}
+	u3 %v{2}
+	p
+	{
+		b %Active{1}
+		Vec3 %BoundsOffset{f{0x098B8A3A,0x098B8A3A,0x2638CD3E}}
+		f %BoundsRadius{0x35B2D33E}
+		Color %Color{f{0x0000803F,0x0000803F,0x0000803F,0x0000803F}}
+		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
+		VarArray %Meshes
+		{
+			Uuid{u4{13362473503607623301,5176352424873566625}}
+			Uuid{u4{10284100967141617818,5342222334710562765}}
+			Uuid{u4{11648771783727351963,4809678832197829205}}
+		}
+		b %OverlapRanges{1}
+		b %ShowDebugInfo{0}
+		f %SortingDepthOffset{0}
+	}
+}
+o
+{
+	Uuid %id{u4{13362473503607623301,5176352424873566625}}
+	s %t{"ezLodMeshLod"}
+	u3 %v{2}
+	p
+	{
+		s %Mesh{"{ 331b1789-5142-4858-8970-978bb77623b1 }"}
+		f %Threshold{0xCDCC4C3E}
+	}
+}
+o
+{
 	Uuid %id{u4{4499610963806809771,5236969617331573363}}
 	s %t{"ezPointLightComponent"}
-	u3 %v{3}
+	u3 %v{4}
 	p
 	{
 		b %Active{1}
@@ -79,8 +128,10 @@ o
 		f %ConstantBias{0xCDCCCC3D}
 		ColorGamma %EffectiveColor{u1{255,255,255,255}}
 		f %Intensity{0x00002041}
+		f %Length{0}
 		ColorGamma %LightColor{u1{255,255,255,255}}
 		f %PenumbraSize{0xCDCCCC3D}
+		f %Radius{0}
 		f %Range{0x0000803F}
 		f %ShadowFadeOutRange{0}
 		f %SlopeBias{0x0000803E}
@@ -92,17 +143,13 @@ o
 }
 o
 {
-	Uuid %id{u4{13168626185489247655,5296725495455087717}}
-	s %t{"ezMeshComponent"}
-	u3 %v{3}
+	Uuid %id{u4{10284100967141617818,5342222334710562765}}
+	s %t{"ezLodMeshLod"}
+	u3 %v{2}
 	p
 	{
-		b %Active{1}
-		Color %Color{f{0x0000803F,0x0000803F,0x0000803F,0x0000803F}}
-		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
-		VarArray %Materials{}
-		s %Mesh{"{ 331b1789-5142-4858-8970-978bb77623b1 }"}
-		f %SortingDepthOffset{0}
+		s %Mesh{"{ 5a829c01-7dc0-434d-bbe4-9a10d8426ae2 }"}
+		f %Threshold{0xCDCCCC3D}
 	}
 }
 o
@@ -119,7 +166,7 @@ o
 		}
 		VarArray %Components
 		{
-			Uuid{u4{13168626185489247655,5296725495455087717}}
+			Uuid{u4{3540264774218592677,5136587833720308203}}
 		}
 		s %GlobalKey{""}
 		Vec3 %LocalPosition{f{0,0,0}}
@@ -233,23 +280,6 @@ o
 }
 o
 {
-	Uuid %id{u4{14633628111157529947,3328384510238863063}}
-	s %t{"ezReflectedTypeDescriptor"}
-	u3 %v{1}
-	p
-	{
-		VarArray %Attributes{}
-		s %Flags{"ezTypeFlags::Class|ezTypeFlags::Minimal"}
-		VarArray %Functions{}
-		s %ParentTypeName{"ezMeshComponentBase"}
-		s %PluginName{"Static"}
-		VarArray %Properties{}
-		s %TypeName{"ezMeshComponent"}
-		u3 %TypeVersion{3}
-	}
-}
-o
-{
 	Uuid %id{u4{17523044089822028024,3521005166208929094}}
 	s %t{"ezReflectedTypeDescriptor"}
 	u3 %v{1}
@@ -280,23 +310,6 @@ o
 		VarArray %Properties{}
 		s %TypeName{"ezVisualizerAnchor"}
 		u3 %TypeVersion{1}
-	}
-}
-o
-{
-	Uuid %id{u4{7605758958972330253,6687734095884105025}}
-	s %t{"ezReflectedTypeDescriptor"}
-	u3 %v{1}
-	p
-	{
-		VarArray %Attributes{}
-		s %Flags{"ezTypeFlags::Class|ezTypeFlags::Abstract|ezTypeFlags::Minimal"}
-		VarArray %Functions{}
-		s %ParentTypeName{"ezRenderComponent"}
-		s %PluginName{"Static"}
-		VarArray %Properties{}
-		s %TypeName{"ezMeshComponentBase"}
-		u3 %TypeVersion{4}
 	}
 }
 o
@@ -386,6 +399,23 @@ o
 }
 o
 {
+	Uuid %id{u4{455663516835322266,10016785433957589977}}
+	s %t{"ezReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"ezTypeFlags::Class|ezTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"ezManipulatorAttribute"}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"ezTransformManipulatorAttribute"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
 	Uuid %id{u4{14700230518358869173,11472901527618371423}}
 	s %t{"ezReflectedTypeDescriptor"}
 	u3 %v{1}
@@ -415,7 +445,7 @@ o
 		s %PluginName{"Static"}
 		VarArray %Properties{}
 		s %TypeName{"ezPointLightComponent"}
-		u3 %TypeVersion{3}
+		u3 %TypeVersion{4}
 	}
 }
 o
@@ -467,6 +497,40 @@ o
 		VarArray %Properties{}
 		s %TypeName{"ezPointLightVisualizerAttribute"}
 		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{16949072661995226334,13316198519734760966}}
+	s %t{"ezReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"ezTypeFlags::Class|ezTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"ezRenderComponent"}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"ezLodMeshComponent"}
+		u3 %TypeVersion{2}
+	}
+}
+o
+{
+	Uuid %id{u4{16846208616422537192,13684368881119146586}}
+	s %t{"ezReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"ezTypeFlags::Class|ezTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{""}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"ezLodMeshLod"}
+		u3 %TypeVersion{2}
 	}
 }
 o
@@ -534,6 +598,23 @@ o
 		s %PluginName{"Static"}
 		VarArray %Properties{}
 		s %TypeName{"ezSphereManipulatorAttribute"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{14207082430471941233,17000358661146427261}}
+	s %t{"ezReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"ezTypeFlags::Class|ezTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"ezVisualizerAttribute"}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"ezSphereVisualizerAttribute"}
 		u3 %TypeVersion{1}
 	}
 }

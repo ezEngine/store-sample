@@ -21,7 +21,7 @@ o
 		s %AssetType{"Prefab"}
 		VarArray %Dependencies{}
 		Uuid %DocumentID{u4{8611605310910797588,10834238473974947401}}
-		u4 %Hash{12644852844729729673}
+		u4 %Hash{16902324150906388879}
 		VarArray %MetaInfo
 		{
 			Uuid{u4{8863484664715553782,2986228794227223082}}
@@ -41,21 +41,6 @@ o
 }
 Objects
 {
-o
-{
-	Uuid %id{u4{3419031067774395550,4710085187848184909}}
-	s %t{"ezMeshComponent"}
-	u3 %v{3}
-	p
-	{
-		b %Active{1}
-		Color %Color{f{0x0000803F,0x0000803F,0x0000803F,0x0000803F}}
-		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
-		VarArray %Materials{}
-		s %Mesh{"{ 1c4a9866-df59-43fd-8bf2-e0aecf495b36 }"}
-		f %SortingDepthOffset{0}
-	}
-}
 o
 {
 	Uuid %id{u4{16156598322113199787,5396762488499748889}}
@@ -79,6 +64,21 @@ o
 	{
 		b %Active{1}
 		Vec3 %HalfExtents{f{0xCDCC4C3D,0x0AD7A33E,0xCDCC4C3F}}
+	}
+}
+o
+{
+	Uuid %id{u4{18044956026714692234,5522854422753484298}}
+	s %t{"ezMeshComponent"}
+	u3 %v{3}
+	p
+	{
+		b %Active{1}
+		Color %Color{f{0x0000803F,0x0000803F,0x0000803F,0x0000803F}}
+		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
+		VarArray %Materials{}
+		s %Mesh{"{ 1c4a9866-df59-43fd-8bf2-e0aecf495b36 }"}
+		f %SortingDepthOffset{0}
 	}
 }
 o
@@ -122,8 +122,8 @@ o
 		}
 		VarArray %Components
 		{
-			Uuid{u4{3419031067774395550,4710085187848184909}}
 			Uuid{u4{16156598322113199787,5396762488499748889}}
+			Uuid{u4{18044956026714692234,5522854422753484298}}
 		}
 		s %GlobalKey{""}
 		Vec3 %LocalPosition{f{0,0,0}}

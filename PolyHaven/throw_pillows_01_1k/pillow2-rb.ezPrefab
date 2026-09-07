@@ -21,7 +21,7 @@ o
 		s %AssetType{"Prefab"}
 		VarArray %Dependencies{}
 		Uuid %DocumentID{u4{8283599179740213411,5620899250919135094}}
-		u4 %Hash{2830138372619394554}
+		u4 %Hash{3641767254011685773}
 		VarArray %MetaInfo
 		{
 			Uuid{u4{15982855144281856529,5216677017744062121}}
@@ -90,9 +90,9 @@ o
 		VarArray %Children{}
 		VarArray %Components
 		{
-			Uuid{u4{15617913136624579041,1390646994587027576}}
 			Uuid{u4{5067699674906511349,1393032299089094164}}
 			Uuid{u4{16838603151049853430,1032393800866380305}}
+			Uuid{u4{3791306689193644458,4697884119267143009}}
 		}
 		s %GlobalKey{""}
 		Vec3 %LocalPosition{f{0xCDCC4C3E,0x9999193E,0xCECCCC3D}}
@@ -110,29 +110,15 @@ o
 }
 o
 {
-	Uuid %id{u4{15617913136624579041,1390646994587027576}}
-	s %t{"ezMeshComponent"}
-	u3 %v{3}
-	p
-	{
-		b %Active{1}
-		Color %Color{f{0x0000803F,0x0000803F,0x0000803F,0x0000803F}}
-		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
-		VarArray %Materials{}
-		s %Mesh{"{ 90360568-2b27-4884-98a4-11e7b77dd52b }"}
-		f %SortingDepthOffset{0}
-	}
-}
-o
-{
 	Uuid %id{u4{5067699674906511349,1393032299089094164}}
 	s %t{"ezJoltDynamicActorComponent"}
-	u3 %v{7}
+	u3 %v{8}
 	p
 	{
 		b %Active{1}
 		b %AllowSleeping{1}
 		f %AngularDamping{0xCDCC4C3E}
+		f %BuoyancyFactor{0xCDCC8C3F}
 		Vec3 %CenterOfMass{f{0,0,0}}
 		u1 %CollisionLayer{0}
 		b %ContinuousCollisionDetection{0}
@@ -147,6 +133,21 @@ o
 		s %Surface{""}
 		u1 %WeightCategory{1}
 		f %WeightScale{0x0000803F}
+	}
+}
+o
+{
+	Uuid %id{u4{3791306689193644458,4697884119267143009}}
+	s %t{"ezMeshComponent"}
+	u3 %v{3}
+	p
+	{
+		b %Active{1}
+		Color %Color{f{0x0000803F,0x0000803F,0x0000803F,0x0000803F}}
+		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
+		VarArray %Materials{}
+		s %Mesh{"{ 90360568-2b27-4884-98a4-11e7b77dd52b }"}
+		f %SortingDepthOffset{0}
 	}
 }
 o
@@ -361,7 +362,7 @@ o
 		s %PluginName{"ezEditorPluginJolt"}
 		VarArray %Properties{}
 		s %TypeName{"ezJoltDynamicActorComponent"}
-		u3 %TypeVersion{7}
+		u3 %TypeVersion{8}
 	}
 }
 o

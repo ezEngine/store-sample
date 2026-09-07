@@ -21,7 +21,7 @@ o
 		s %AssetType{"Prefab"}
 		VarArray %Dependencies{}
 		Uuid %DocumentID{u4{13806649598708649015,10676632869425674047}}
-		u4 %Hash{13996158217848764177}
+		u4 %Hash{4431935230186945845}
 		VarArray %MetaInfo
 		{
 			Uuid{u4{14313616980225930415,1935954546884213232}}
@@ -126,7 +126,7 @@ o
 }
 o
 {
-	Uuid %id{u4{1970115640726292401,4704028370512922647}}
+	Uuid %id{u4{4986825265080138169,4743080256292533411}}
 	s %t{"ezMeshComponent"}
 	u3 %v{3}
 	p
@@ -185,8 +185,8 @@ o
 		}
 		VarArray %Components
 		{
-			Uuid{u4{1970115640726292401,4704028370512922647}}
 			Uuid{u4{8681263691776974479,5387251058237916625}}
+			Uuid{u4{4986825265080138169,4743080256292533411}}
 		}
 		s %GlobalKey{""}
 		Vec3 %LocalPosition{f{0,0,0}}
@@ -1478,7 +1478,7 @@ o
 		}
 		s %Category{"ezPropertyCategory::Member"}
 		Invalid %ConstantValue{}
-		s %Flags{"ezPropertyFlags::StandardType|ezPropertyFlags::Phantom"}
+		s %Flags{"ezPropertyFlags::StandardType"}
 		s %Name{"Preview"}
 		s %Type{"bool"}
 	}
@@ -1497,7 +1497,7 @@ o
 		}
 		s %Category{"ezPropertyCategory::Member"}
 		Invalid %ConstantValue{}
-		s %Flags{"ezPropertyFlags::StandardType|ezPropertyFlags::Phantom"}
+		s %Flags{"ezPropertyFlags::StandardType"}
 		s %Name{"Color1"}
 		s %Type{"ezColor"}
 	}
@@ -1512,10 +1512,11 @@ o
 		VarArray %Attributes
 		{
 			Uuid{u4{9154373332268777173,10375854436882045288}}
+			Uuid{u4{8468710789677653600,16518566457375063466}}
 		}
 		s %Category{"ezPropertyCategory::Array"}
 		Invalid %ConstantValue{}
-		s %Flags{"ezPropertyFlags::StandardType|ezPropertyFlags::Phantom"}
+		s %Flags{"ezPropertyFlags::StandardType"}
 		s %Name{"Prefabs"}
 		s %Type{"ezString"}
 	}
@@ -1563,7 +1564,7 @@ o
 		}
 		s %Category{"ezPropertyCategory::Member"}
 		Invalid %ConstantValue{}
-		s %Flags{"ezPropertyFlags::StandardType|ezPropertyFlags::Phantom"}
+		s %Flags{"ezPropertyFlags::StandardType"}
 		s %Name{"MinScale"}
 		s %Type{"float"}
 	}
@@ -1687,7 +1688,7 @@ o
 		}
 		s %Category{"ezPropertyCategory::Member"}
 		Invalid %ConstantValue{}
-		s %Flags{"ezPropertyFlags::StandardType|ezPropertyFlags::Phantom"}
+		s %Flags{"ezPropertyFlags::StandardType"}
 		s %Name{"Position"}
 		s %Type{"ezVec3"}
 	}
@@ -1715,7 +1716,7 @@ o
 		}
 		s %Category{"ezPropertyCategory::Member"}
 		Invalid %ConstantValue{}
-		s %Flags{"ezPropertyFlags::StandardType|ezPropertyFlags::Phantom"}
+		s %Flags{"ezPropertyFlags::StandardType"}
 		s %Name{"Count"}
 		s %Type{"ezUInt16"}
 	}
@@ -1747,7 +1748,7 @@ o
 		VarArray %Attributes{}
 		s %Category{"ezPropertyCategory::Member"}
 		Invalid %ConstantValue{}
-		s %Flags{"ezPropertyFlags::StandardType|ezPropertyFlags::Phantom"}
+		s %Flags{"ezPropertyFlags::StandardType"}
 		s %Name{"InstantiateAsChildren"}
 		s %Type{"bool"}
 	}
@@ -1766,7 +1767,7 @@ o
 		}
 		s %Category{"ezPropertyCategory::Member"}
 		Invalid %ConstantValue{}
-		s %Flags{"ezPropertyFlags::StandardType|ezPropertyFlags::Phantom"}
+		s %Flags{"ezPropertyFlags::StandardType"}
 		s %Name{"Color2"}
 		s %Type{"ezColor"}
 	}
@@ -1945,7 +1946,7 @@ o
 		}
 		s %Category{"ezPropertyCategory::Member"}
 		Invalid %ConstantValue{}
-		s %Flags{"ezPropertyFlags::StandardType|ezPropertyFlags::Phantom"}
+		s %Flags{"ezPropertyFlags::StandardType"}
 		s %Name{"Rotation"}
 		s %Type{"ezVec3"}
 	}
@@ -1971,7 +1972,7 @@ o
 		{
 			Uuid{u4{18105780118062707531,14391840297266543594}}
 		}
-		s %Flags{"ezTypeFlags::Class|ezTypeFlags::Phantom"}
+		s %Flags{"ezTypeFlags::Class"}
 		VarArray %Functions{}
 		s %ParentTypeName{"ezComponent"}
 		s %PluginName{"ezGameComponentsPlugin"}
@@ -1991,6 +1992,13 @@ o
 		s %TypeName{"ezRandomPrefabComponent"}
 		u3 %TypeVersion{1}
 	}
+}
+o
+{
+	Uuid %id{u4{8468710789677653600,16518566457375063466}}
+	s %t{"ezRequiredAttribute"}
+	u3 %v{1}
+	p{}
 }
 o
 {
@@ -2031,7 +2039,7 @@ o
 		}
 		s %Category{"ezPropertyCategory::Member"}
 		Invalid %ConstantValue{}
-		s %Flags{"ezPropertyFlags::StandardType|ezPropertyFlags::Phantom"}
+		s %Flags{"ezPropertyFlags::StandardType"}
 		s %Name{"MaxScale"}
 		s %Type{"float"}
 	}

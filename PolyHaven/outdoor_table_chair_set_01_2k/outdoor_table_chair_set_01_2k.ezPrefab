@@ -21,7 +21,7 @@ o
 		s %AssetType{"Prefab"}
 		VarArray %Dependencies{}
 		Uuid %DocumentID{u4{10316744308958256451,10391643664584763556}}
-		u4 %Hash{14452320463237470064}
+		u4 %Hash{11029969618938643840}
 		VarArray %MetaInfo
 		{
 			Uuid{u4{10199672245030922790,1804448955350424950}}
@@ -44,21 +44,6 @@ Objects
 {
 o
 {
-	Uuid %id{u4{12588982529455480499,4680978379593844512}}
-	s %t{"ezMeshComponent"}
-	u3 %v{3}
-	p
-	{
-		b %Active{1}
-		Color %Color{f{0x0000803F,0x0000803F,0x0000803F,0x0000803F}}
-		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
-		VarArray %Materials{}
-		s %Mesh{"{ e93a83a5-2d67-4658-b0ac-5aad78960b21 }"}
-		f %SortingDepthOffset{0}
-	}
-}
-o
-{
 	Uuid %id{u4{813921719326603410,4901322738691854367}}
 	s %t{"ezJoltStaticActorComponent"}
 	u3 %v{1}
@@ -73,6 +58,21 @@ o
 }
 o
 {
+	Uuid %id{u4{4644242139989100674,5615844784344701567}}
+	s %t{"ezMeshComponent"}
+	u3 %v{3}
+	p
+	{
+		b %Active{1}
+		Color %Color{f{0x0000803F,0x0000803F,0x0000803F,0x0000803F}}
+		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
+		VarArray %Materials{}
+		s %Mesh{"{ e93a83a5-2d67-4658-b0ac-5aad78960b21 }"}
+		f %SortingDepthOffset{0}
+	}
+}
+o
+{
 	Uuid %id{u4{11497863145921991593,5903501081441589846}}
 	s %t{"ezGameObject"}
 	u3 %v{1}
@@ -82,8 +82,8 @@ o
 		VarArray %Children{}
 		VarArray %Components
 		{
-			Uuid{u4{12588982529455480499,4680978379593844512}}
 			Uuid{u4{813921719326603410,4901322738691854367}}
+			Uuid{u4{4644242139989100674,5615844784344701567}}
 		}
 		s %GlobalKey{""}
 		Vec3 %LocalPosition{f{0,0,0}}

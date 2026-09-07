@@ -11,7 +11,7 @@ o
 		s %AssetType{"Layer"}
 		VarArray %Dependencies{}
 		Uuid %DocumentID{u4{3836388713405184903,5598852044603947509}}
-		u4 %Hash{17118666993297452555}
+		u4 %Hash{16174717659287157862}
 		VarArray %MetaInfo{}
 		VarArray %Outputs{}
 		VarArray %PackageDeps
@@ -34,7 +34,6 @@ o
 			s{"{ 216b7e7a-4520-4054-9623-5e10a563d2d6 }"}
 			s{"{ 232939d5-703c-8e61-0dd3-f05581f744ee }"}
 			s{"{ 2435016a-0782-8cb7-42cf-0abff6278f8a }"}
-			s{"{ 2bcd1b98-d43b-4ea8-94fd-b1bbd0cc29a7 }"}
 			s{"{ 2def52c6-46e4-944a-3d21-17fcf58f2c76 }"}
 			s{"{ 3465054a-104f-88fe-2424-717df2a1b8c7 }"}
 			s{"{ 352ec460-37e5-878c-1cc4-015188831f64 }"}
@@ -70,7 +69,6 @@ o
 			s{"{ b5809a13-f189-8a30-1027-13e173f0946a }"}
 			s{"{ b5a5e19a-9896-4cc9-88cd-db1bab204c43 }"}
 			s{"{ b7649c15-9005-4283-bba6-11dcf3bfeec8 }"}
-			s{"{ bc774065-547d-4adb-ad62-453a88a1c6b1 }"}
 			s{"{ c1ded03d-4911-938a-1873-c474e70c3e3f }"}
 			s{"{ c5601692-1435-490a-bdde-2f8d182f9cae }"}
 			s{"{ c71a87d2-8902-450a-a58f-edbe2efdd8b5 }"}
@@ -110,7 +108,6 @@ o
 			s{"{ 216b7e7a-4520-4054-9623-5e10a563d2d6 }"}
 			s{"{ 232939d5-703c-8e61-0dd3-f05581f744ee }"}
 			s{"{ 2435016a-0782-8cb7-42cf-0abff6278f8a }"}
-			s{"{ 2bcd1b98-d43b-4ea8-94fd-b1bbd0cc29a7 }"}
 			s{"{ 2def52c6-46e4-944a-3d21-17fcf58f2c76 }"}
 			s{"{ 3465054a-104f-88fe-2424-717df2a1b8c7 }"}
 			s{"{ 352ec460-37e5-878c-1cc4-015188831f64 }"}
@@ -146,7 +143,6 @@ o
 			s{"{ b5809a13-f189-8a30-1027-13e173f0946a }"}
 			s{"{ b5a5e19a-9896-4cc9-88cd-db1bab204c43 }"}
 			s{"{ b7649c15-9005-4283-bba6-11dcf3bfeec8 }"}
-			s{"{ bc774065-547d-4adb-ad62-453a88a1c6b1 }"}
 			s{"{ c1ded03d-4911-938a-1873-c474e70c3e3f }"}
 			s{"{ c5601692-1435-490a-bdde-2f8d182f9cae }"}
 			s{"{ c71a87d2-8902-450a-a58f-edbe2efdd8b5 }"}
@@ -3160,7 +3156,7 @@ o
 {
 	Uuid %id{u4{14418904635826281915,5497317945680064955}}
 	s %t{"ezDecalComponent"}
-	u3 %v{8}
+	u3 %v{9}
 	p
 	{
 		b %Active{1}
@@ -3185,6 +3181,7 @@ o
 		s %ProjectionAxis{"ezBasisAxis::NegativeZ"}
 		f %SizeVariance{0}
 		f %SortOrder{0}
+		i1 %Variation{-1}
 		b %WrapAround{0}
 	}
 }
@@ -3530,8 +3527,6 @@ o
 			Uuid{u4{6409036889419183703,6966758720807291509}}
 			Uuid{u4{831321684494715945,10360932952683719068}}
 			Uuid{u4{10322200351086224828,15948101117449905179}}
-			Uuid{u4{11039595465861339972,10146481875230060078}}
-			Uuid{u4{1261548259475159407,10368757451842222010}}
 			Uuid{u4{17694589870005308242,11133368398012002089}}
 			Uuid{u4{11280583030267462898,16217212962909611951}}
 			Uuid{u4{13728915252972157994,9487535275997374018}}
@@ -6127,21 +6122,6 @@ o
 }
 o
 {
-	Uuid %id{u4{7497451760657209948,10061363622569474441}}
-	s %t{"ezMeshComponent"}
-	u3 %v{3}
-	p
-	{
-		b %Active{1}
-		Color %Color{f{0x0000803F,0x0000803F,0x0000803F,0x0000803F}}
-		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
-		VarArray %Materials{}
-		s %Mesh{"{ 2bcd1b98-d43b-4ea8-94fd-b1bbd0cc29a7 }"}
-		f %SortingDepthOffset{0}
-	}
-}
-o
-{
 	Uuid %id{u4{2351186556828817716,10063579979279026323}}
 	s %t{"ezPrefabReferenceComponent"}
 	u3 %v{4}
@@ -6324,32 +6304,6 @@ o
 }
 o
 {
-	Uuid %id{u4{11039595465861339972,10146481875230060078}}
-	s %t{"ezGameObject"}
-	u3 %v{1}
-	p
-	{
-		b %Active{1}
-		VarArray %Children{}
-		VarArray %Components
-		{
-			Uuid{u4{7497451760657209948,10061363622569474441}}
-		}
-		s %GlobalKey{""}
-		Vec3 %LocalPosition{f{0x66664E42,0x01006C41,0x6666863F}}
-		Quat %LocalRotation{f{0,0xF304353F,0,0xF304353F}}
-		Vec3 %LocalScaling{f{0x0000803F,0x0000803F,0x0000803F}}
-		f %LocalUniformScaling{0x0000803F}
-		s %Mode{"ezObjectMode::Automatic"}
-		s %Name{""}
-		VarArray %Tags
-		{
-			s{"CastShadow"}
-		}
-	}
-}
-o
-{
 	Uuid %id{u4{13253148739400491312,10150093830145707285}}
 	s %t{"ezPrefabReferenceComponent"}
 	u3 %v{4}
@@ -6359,21 +6313,6 @@ o
 		VarDict %Parameters{}
 		s %Prefab{"{ 611e1f88-2678-44ca-83f5-3b495f0f4a3f }"}
 		b %ShowShapeIcons{0}
-	}
-}
-o
-{
-	Uuid %id{u4{10926761150066256990,10158423395195232484}}
-	s %t{"ezMeshComponent"}
-	u3 %v{3}
-	p
-	{
-		b %Active{1}
-		Color %Color{f{0x0000803F,0x0000803F,0x0000803F,0x0000803F}}
-		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
-		VarArray %Materials{}
-		s %Mesh{"{ bc774065-547d-4adb-ad62-453a88a1c6b1 }"}
-		f %SortingDepthOffset{0}
 	}
 }
 o
@@ -6811,32 +6750,6 @@ o
 		s %GlobalKey{""}
 		Vec3 %LocalPosition{f{0xCE832542,0xB48EAC41,0xCDCC4C3D}}
 		Quat %LocalRotation{f{0,0,0x6ED9823E,0xAC7F773F}}
-		Vec3 %LocalScaling{f{0x0000803F,0x0000803F,0x0000803F}}
-		f %LocalUniformScaling{0x0000803F}
-		s %Mode{"ezObjectMode::Automatic"}
-		s %Name{""}
-		VarArray %Tags
-		{
-			s{"CastShadow"}
-		}
-	}
-}
-o
-{
-	Uuid %id{u4{1261548259475159407,10368757451842222010}}
-	s %t{"ezGameObject"}
-	u3 %v{1}
-	p
-	{
-		b %Active{1}
-		VarArray %Children{}
-		VarArray %Components
-		{
-			Uuid{u4{10926761150066256990,10158423395195232484}}
-		}
-		s %GlobalKey{""}
-		Vec3 %LocalPosition{f{0x66664E42,0x00004C41,0xC6CCAC3F}}
-		Quat %LocalRotation{f{0,0xF304353F,0,0xF304353F}}
 		Vec3 %LocalScaling{f{0x0000803F,0x0000803F,0x0000803F}}
 		f %LocalUniformScaling{0x0000803F}
 		s %Mode{"ezObjectMode::Automatic"}
@@ -7464,7 +7377,7 @@ o
 {
 	Uuid %id{u4{9862972319932801361,10697517769888778444}}
 	s %t{"ezDecalComponent"}
-	u3 %v{8}
+	u3 %v{9}
 	p
 	{
 		b %Active{1}
@@ -7489,6 +7402,7 @@ o
 		s %ProjectionAxis{"ezBasisAxis::NegativeZ"}
 		f %SizeVariance{0}
 		f %SortOrder{0}
+		i1 %Variation{-1}
 		b %WrapAround{0}
 	}
 }
@@ -10442,7 +10356,7 @@ o
 {
 	Uuid %id{u4{12155653516777765643,15363192234329646891}}
 	s %t{"ezDecalComponent"}
-	u3 %v{8}
+	u3 %v{9}
 	p
 	{
 		b %Active{1}
@@ -10467,6 +10381,7 @@ o
 		s %ProjectionAxis{"ezBasisAxis::NegativeZ"}
 		f %SizeVariance{0}
 		f %SortOrder{0}
+		i1 %Variation{-1}
 		b %WrapAround{0}
 	}
 }
@@ -11493,7 +11408,7 @@ o
 {
 	Uuid %id{u4{11601374217080636881,15832241648717129150}}
 	s %t{"ezDecalComponent"}
-	u3 %v{8}
+	u3 %v{9}
 	p
 	{
 		b %Active{1}
@@ -11518,6 +11433,7 @@ o
 		s %ProjectionAxis{"ezBasisAxis::NegativeZ"}
 		f %SizeVariance{0}
 		f %SortOrder{0}
+		i1 %Variation{-1}
 		b %WrapAround{0}
 	}
 }
@@ -12919,7 +12835,7 @@ o
 		s %PluginName{"Static"}
 		VarArray %Properties{}
 		s %TypeName{"ezDecalComponent"}
-		u3 %TypeVersion{8}
+		u3 %TypeVersion{9}
 	}
 }
 o

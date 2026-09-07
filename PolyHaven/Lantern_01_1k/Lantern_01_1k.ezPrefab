@@ -21,7 +21,7 @@ o
 		s %AssetType{"Prefab"}
 		VarArray %Dependencies{}
 		Uuid %DocumentID{u4{7214629749568685084,9767243149439059040}}
-		u4 %Hash{5880360417959766859}
+		u4 %Hash{9888038487074886173}
 		VarArray %MetaInfo
 		{
 			Uuid{u4{15335483649439909725,5235084433231307973}}
@@ -29,10 +29,14 @@ o
 		VarArray %Outputs{}
 		VarArray %PackageDeps
 		{
+			s{"{ 0b317324-705e-4c45-9543-d71b6e29c823 }"}
+			s{"{ 11b4e92b-21c5-4103-a2f2-c7f84b20b415 }"}
 			s{"{ c5e3c0cc-6554-4365-bbf0-1f7a922e1b93 }"}
 		}
 		VarArray %References
 		{
+			s{"{ 0b317324-705e-4c45-9543-d71b6e29c823 }"}
+			s{"{ 11b4e92b-21c5-4103-a2f2-c7f84b20b415 }"}
 			s{"{ c5e3c0cc-6554-4365-bbf0-1f7a922e1b93 }"}
 		}
 		s %Tags{""}
@@ -45,7 +49,7 @@ o
 {
 	Uuid %id{u4{1838938391393856149,4711566425274143484}}
 	s %t{"ezPointLightComponent"}
-	u3 %v{3}
+	u3 %v{4}
 	p
 	{
 		b %Active{1}
@@ -53,8 +57,10 @@ o
 		f %ConstantBias{0xCDCCCC3D}
 		ColorGamma %EffectiveColor{u1{255,255,255,255}}
 		f %Intensity{0x0000A040}
+		f %Length{0}
 		ColorGamma %LightColor{u1{255,255,255,255}}
 		f %PenumbraSize{0xCDCCCC3D}
+		f %Radius{0}
 		f %Range{0x00000040}
 		f %ShadowFadeOutRange{0x00008040}
 		f %SlopeBias{0x0000803E}
@@ -62,6 +68,28 @@ o
 		u3 %Temperature{3138}
 		b %TransparentShadows{0}
 		b %UseColorTemperature{1}
+	}
+}
+o
+{
+	Uuid %id{u4{1081879792767166087,4849112987828761669}}
+	s %t{"ezLodMeshLod"}
+	u3 %v{2}
+	p
+	{
+		s %Mesh{"{ 11b4e92b-21c5-4103-a2f2-c7f84b20b415 }"}
+		f %Threshold{0}
+	}
+}
+o
+{
+	Uuid %id{u4{2910581337211312269,4908489350267296394}}
+	s %t{"ezLodMeshLod"}
+	u3 %v{2}
+	p
+	{
+		s %Mesh{"{ c5e3c0cc-6554-4365-bbf0-1f7a922e1b93 }"}
+		f %Threshold{0xCDCC4C3E}
 	}
 }
 o
@@ -80,12 +108,13 @@ o
 {
 	Uuid %id{u4{3095036048299628713,4938086372712780972}}
 	s %t{"ezJoltDynamicActorComponent"}
-	u3 %v{7}
+	u3 %v{8}
 	p
 	{
 		b %Active{1}
 		b %AllowSleeping{1}
 		f %AngularDamping{0xCDCC4C3E}
+		f %BuoyancyFactor{0xCDCC8C3F}
 		Vec3 %CenterOfMass{f{0,0,0}}
 		u1 %CollisionLayer{0}
 		b %ContinuousCollisionDetection{0}
@@ -116,8 +145,8 @@ o
 		}
 		VarArray %Components
 		{
-			Uuid{u4{13946559007916862612,5472263516480511534}}
 			Uuid{u4{3095036048299628713,4938086372712780972}}
+			Uuid{u4{11311816675055054995,5479667617983032242}}
 		}
 		s %GlobalKey{""}
 		Vec3 %LocalPosition{f{0,0,0}}
@@ -135,17 +164,36 @@ o
 }
 o
 {
-	Uuid %id{u4{13946559007916862612,5472263516480511534}}
-	s %t{"ezMeshComponent"}
-	u3 %v{3}
+	Uuid %id{u4{11311816675055054995,5479667617983032242}}
+	s %t{"ezLodMeshComponent"}
+	u3 %v{2}
 	p
 	{
 		b %Active{1}
+		Vec3 %BoundsOffset{f{0x17B75138,0x82A8FB37,0x6286163E}}
+		f %BoundsRadius{0x944C1E3E}
 		Color %Color{f{0x0000803F,0x0000803F,0x0000803F,0x0000803F}}
 		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
-		VarArray %Materials{}
-		s %Mesh{"{ c5e3c0cc-6554-4365-bbf0-1f7a922e1b93 }"}
+		VarArray %Meshes
+		{
+			Uuid{u4{2910581337211312269,4908489350267296394}}
+			Uuid{u4{15589743650342282423,5498357533517972097}}
+			Uuid{u4{1081879792767166087,4849112987828761669}}
+		}
+		b %OverlapRanges{1}
+		b %ShowDebugInfo{0}
 		f %SortingDepthOffset{0}
+	}
+}
+o
+{
+	Uuid %id{u4{15589743650342282423,5498357533517972097}}
+	s %t{"ezLodMeshLod"}
+	u3 %v{2}
+	p
+	{
+		s %Mesh{"{ 0b317324-705e-4c45-9543-d71b6e29c823 }"}
+		f %Threshold{0xCDCCCC3D}
 	}
 }
 o
@@ -273,23 +321,6 @@ o
 }
 o
 {
-	Uuid %id{u4{14633628111157529947,3328384510238863063}}
-	s %t{"ezReflectedTypeDescriptor"}
-	u3 %v{1}
-	p
-	{
-		VarArray %Attributes{}
-		s %Flags{"ezTypeFlags::Class|ezTypeFlags::Minimal"}
-		VarArray %Functions{}
-		s %ParentTypeName{"ezMeshComponentBase"}
-		s %PluginName{"Static"}
-		VarArray %Properties{}
-		s %TypeName{"ezMeshComponent"}
-		u3 %TypeVersion{3}
-	}
-}
-o
-{
 	Uuid %id{u4{17523044089822028024,3521005166208929094}}
 	s %t{"ezReflectedTypeDescriptor"}
 	u3 %v{1}
@@ -341,23 +372,6 @@ o
 }
 o
 {
-	Uuid %id{u4{7605758958972330253,6687734095884105025}}
-	s %t{"ezReflectedTypeDescriptor"}
-	u3 %v{1}
-	p
-	{
-		VarArray %Attributes{}
-		s %Flags{"ezTypeFlags::Class|ezTypeFlags::Abstract|ezTypeFlags::Minimal"}
-		VarArray %Functions{}
-		s %ParentTypeName{"ezRenderComponent"}
-		s %PluginName{"Static"}
-		VarArray %Properties{}
-		s %TypeName{"ezMeshComponentBase"}
-		u3 %TypeVersion{4}
-	}
-}
-o
-{
 	Uuid %id{u4{13649880205026559927,7297274558339895637}}
 	s %t{"ezReflectedTypeDescriptor"}
 	u3 %v{1}
@@ -404,7 +418,7 @@ o
 		s %PluginName{"ezEditorPluginJolt"}
 		VarArray %Properties{}
 		s %TypeName{"ezJoltDynamicActorComponent"}
-		u3 %TypeVersion{7}
+		u3 %TypeVersion{8}
 	}
 }
 o
@@ -506,7 +520,7 @@ o
 		s %PluginName{"Static"}
 		VarArray %Properties{}
 		s %TypeName{"ezPointLightComponent"}
-		u3 %TypeVersion{3}
+		u3 %TypeVersion{4}
 	}
 }
 o
@@ -575,6 +589,40 @@ o
 		VarArray %Properties{}
 		s %TypeName{"ezPointLightVisualizerAttribute"}
 		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{16949072661995226334,13316198519734760966}}
+	s %t{"ezReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"ezTypeFlags::Class|ezTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"ezRenderComponent"}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"ezLodMeshComponent"}
+		u3 %TypeVersion{2}
+	}
+}
+o
+{
+	Uuid %id{u4{16846208616422537192,13684368881119146586}}
+	s %t{"ezReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"ezTypeFlags::Class|ezTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{""}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"ezLodMeshLod"}
+		u3 %TypeVersion{2}
 	}
 }
 o
@@ -693,6 +741,23 @@ o
 		s %PluginName{"Static"}
 		VarArray %Properties{}
 		s %TypeName{"ezBasisAxis"}
+		u3 %TypeVersion{1}
+	}
+}
+o
+{
+	Uuid %id{u4{14207082430471941233,17000358661146427261}}
+	s %t{"ezReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"ezTypeFlags::Class|ezTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"ezVisualizerAttribute"}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"ezSphereVisualizerAttribute"}
 		u3 %TypeVersion{1}
 	}
 }

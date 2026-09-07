@@ -21,7 +21,7 @@ o
 		s %AssetType{"Prefab"}
 		VarArray %Dependencies{}
 		Uuid %DocumentID{u4{12327765400272655427,10704283911011940562}}
-		u4 %Hash{3448552341602346657}
+		u4 %Hash{5058164505342990417}
 		VarArray %MetaInfo
 		{
 			Uuid{u4{13875400617512695081,9917087113387792118}}
@@ -38,6 +38,7 @@ o
 			s{"{ b22d67a8-0c6f-8995-2e7e-d57bcc4e41cb }"}
 			s{"{ b8c4527d-2ae5-8d64-3169-cbde670f8549 }"}
 			s{"{ da234b2c-74e5-8bb3-0881-07ea5434a5f8 }"}
+			s{"{ eadb8ec3-a765-4b03-a7c5-f740a033d604 }"}
 			s{"{ f5b2600e-bf57-9675-2a50-43141ed08bad }"}
 			s{"{ fe28754e-7457-8f52-0809-576345df7251 }"}
 		}
@@ -52,6 +53,7 @@ o
 			s{"{ b22d67a8-0c6f-8995-2e7e-d57bcc4e41cb }"}
 			s{"{ b8c4527d-2ae5-8d64-3169-cbde670f8549 }"}
 			s{"{ da234b2c-74e5-8bb3-0881-07ea5434a5f8 }"}
+			s{"{ eadb8ec3-a765-4b03-a7c5-f740a033d604 }"}
 			s{"{ f5b2600e-bf57-9675-2a50-43141ed08bad }"}
 			s{"{ fe28754e-7457-8f52-0809-576345df7251 }"}
 		}
@@ -219,17 +221,13 @@ o
 }
 o
 {
-	Uuid %id{u4{12623033318306886053,5030860323727976758}}
-	s %t{"ezMeshComponent"}
-	u3 %v{3}
+	Uuid %id{u4{1154533200022695582,4970567635309852950}}
+	s %t{"ezLodMeshLod"}
+	u3 %v{2}
 	p
 	{
-		b %Active{1}
-		Color %Color{f{0x0000803F,0x0000803F,0x0000803F,0x0000803F}}
-		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
-		VarArray %Materials{}
-		s %Mesh{"{ 2f07bfae-c861-438b-b210-be1e2a9f1d3e }"}
-		f %SortingDepthOffset{0}
+		s %Mesh{"{ eadb8ec3-a765-4b03-a7c5-f740a033d604 }"}
+		f %Threshold{0}
 	}
 }
 o
@@ -285,6 +283,39 @@ o
 }
 o
 {
+	Uuid %id{u4{15525985331159451303,5477887648572034926}}
+	s %t{"ezLodMeshComponent"}
+	u3 %v{2}
+	p
+	{
+		b %Active{1}
+		Vec3 %BoundsOffset{f{0x6616A13A,0x92088DBA,0x31241B3F}}
+		f %BoundsRadius{0xFB02663F}
+		Color %Color{f{0x0000803F,0x0000803F,0x0000803F,0x0000803F}}
+		Vec4 %CustomData{f{0,0x0000803F,0,0x0000803F}}
+		VarArray %Meshes
+		{
+			Uuid{u4{14632885580766662279,5752303365390947299}}
+			Uuid{u4{1154533200022695582,4970567635309852950}}
+		}
+		b %OverlapRanges{1}
+		b %ShowDebugInfo{0}
+		f %SortingDepthOffset{0}
+	}
+}
+o
+{
+	Uuid %id{u4{14632885580766662279,5752303365390947299}}
+	s %t{"ezLodMeshLod"}
+	u3 %v{2}
+	p
+	{
+		s %Mesh{"{ 2f07bfae-c861-438b-b210-be1e2a9f1d3e }"}
+		f %Threshold{0xCDCC4C3E}
+	}
+}
+o
+{
 	Uuid %id{u4{13508884237236390569,6216141327868766852}}
 	s %t{"ezGameObject"}
 	u3 %v{1}
@@ -304,8 +335,8 @@ o
 		}
 		VarArray %Components
 		{
-			Uuid{u4{12623033318306886053,5030860323727976758}}
 			Uuid{u4{3885982316738424453,4758671686442100807}}
+			Uuid{u4{15525985331159451303,5477887648572034926}}
 		}
 		s %GlobalKey{""}
 		Vec3 %LocalPosition{f{0,0,0}}
@@ -719,23 +750,6 @@ o
 }
 o
 {
-	Uuid %id{u4{14633628111157529947,3328384510238863063}}
-	s %t{"ezReflectedTypeDescriptor"}
-	u3 %v{1}
-	p
-	{
-		VarArray %Attributes{}
-		s %Flags{"ezTypeFlags::Class|ezTypeFlags::Minimal"}
-		VarArray %Functions{}
-		s %ParentTypeName{"ezMeshComponentBase"}
-		s %PluginName{"Static"}
-		VarArray %Properties{}
-		s %TypeName{"ezMeshComponent"}
-		u3 %TypeVersion{3}
-	}
-}
-o
-{
 	Uuid %id{u4{17523044089822028024,3521005166208929094}}
 	s %t{"ezReflectedTypeDescriptor"}
 	u3 %v{1}
@@ -764,7 +778,7 @@ o
 		}
 		s %Category{"ezPropertyCategory::Member"}
 		Invalid %ConstantValue{}
-		s %Flags{"ezPropertyFlags::StandardType|ezPropertyFlags::Phantom"}
+		s %Flags{"ezPropertyFlags::StandardType"}
 		s %Name{"Preview"}
 		s %Type{"bool"}
 	}
@@ -783,7 +797,7 @@ o
 		}
 		s %Category{"ezPropertyCategory::Member"}
 		Invalid %ConstantValue{}
-		s %Flags{"ezPropertyFlags::StandardType|ezPropertyFlags::Phantom"}
+		s %Flags{"ezPropertyFlags::StandardType"}
 		s %Name{"Color1"}
 		s %Type{"ezColor"}
 	}
@@ -815,10 +829,11 @@ o
 		VarArray %Attributes
 		{
 			Uuid{u4{9154373332268777173,10375854436882045288}}
+			Uuid{u4{8468710789677653600,16518566457375063466}}
 		}
 		s %Category{"ezPropertyCategory::Array"}
 		Invalid %ConstantValue{}
-		s %Flags{"ezPropertyFlags::StandardType|ezPropertyFlags::Phantom"}
+		s %Flags{"ezPropertyFlags::StandardType"}
 		s %Name{"Prefabs"}
 		s %Type{"ezString"}
 	}
@@ -838,23 +853,6 @@ o
 		VarArray %Properties{}
 		s %TypeName{"ezVisualizerAnchor"}
 		u3 %TypeVersion{1}
-	}
-}
-o
-{
-	Uuid %id{u4{7605758958972330253,6687734095884105025}}
-	s %t{"ezReflectedTypeDescriptor"}
-	u3 %v{1}
-	p
-	{
-		VarArray %Attributes{}
-		s %Flags{"ezTypeFlags::Class|ezTypeFlags::Abstract|ezTypeFlags::Minimal"}
-		VarArray %Functions{}
-		s %ParentTypeName{"ezRenderComponent"}
-		s %PluginName{"Static"}
-		VarArray %Properties{}
-		s %TypeName{"ezMeshComponentBase"}
-		u3 %TypeVersion{4}
 	}
 }
 o
@@ -883,7 +881,7 @@ o
 		}
 		s %Category{"ezPropertyCategory::Member"}
 		Invalid %ConstantValue{}
-		s %Flags{"ezPropertyFlags::StandardType|ezPropertyFlags::Phantom"}
+		s %Flags{"ezPropertyFlags::StandardType"}
 		s %Name{"MinScale"}
 		s %Type{"float"}
 	}
@@ -1024,7 +1022,7 @@ o
 		}
 		s %Category{"ezPropertyCategory::Member"}
 		Invalid %ConstantValue{}
-		s %Flags{"ezPropertyFlags::StandardType|ezPropertyFlags::Phantom"}
+		s %Flags{"ezPropertyFlags::StandardType"}
 		s %Name{"Position"}
 		s %Type{"ezVec3"}
 	}
@@ -1052,7 +1050,7 @@ o
 		}
 		s %Category{"ezPropertyCategory::Member"}
 		Invalid %ConstantValue{}
-		s %Flags{"ezPropertyFlags::StandardType|ezPropertyFlags::Phantom"}
+		s %Flags{"ezPropertyFlags::StandardType"}
 		s %Name{"Count"}
 		s %Type{"ezUInt16"}
 	}
@@ -1084,7 +1082,7 @@ o
 		VarArray %Attributes{}
 		s %Category{"ezPropertyCategory::Member"}
 		Invalid %ConstantValue{}
-		s %Flags{"ezPropertyFlags::StandardType|ezPropertyFlags::Phantom"}
+		s %Flags{"ezPropertyFlags::StandardType"}
 		s %Name{"InstantiateAsChildren"}
 		s %Type{"bool"}
 	}
@@ -1103,9 +1101,26 @@ o
 		}
 		s %Category{"ezPropertyCategory::Member"}
 		Invalid %ConstantValue{}
-		s %Flags{"ezPropertyFlags::StandardType|ezPropertyFlags::Phantom"}
+		s %Flags{"ezPropertyFlags::StandardType"}
 		s %Name{"Color2"}
 		s %Type{"ezColor"}
+	}
+}
+o
+{
+	Uuid %id{u4{455663516835322266,10016785433957589977}}
+	s %t{"ezReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"ezTypeFlags::Class|ezTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"ezManipulatorAttribute"}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"ezTransformManipulatorAttribute"}
+		u3 %TypeVersion{1}
 	}
 }
 o
@@ -1245,12 +1260,46 @@ o
 }
 o
 {
+	Uuid %id{u4{16949072661995226334,13316198519734760966}}
+	s %t{"ezReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"ezTypeFlags::Class|ezTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"ezRenderComponent"}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"ezLodMeshComponent"}
+		u3 %TypeVersion{2}
+	}
+}
+o
+{
 	Uuid %id{u4{13355939118856044595,13409948400845314516}}
 	s %t{"ezGroupAttribute"}
 	u3 %v{1}
 	p
 	{
 		s %Group{"Random Transform"}
+	}
+}
+o
+{
+	Uuid %id{u4{16846208616422537192,13684368881119146586}}
+	s %t{"ezReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"ezTypeFlags::Class|ezTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{""}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"ezLodMeshLod"}
+		u3 %TypeVersion{2}
 	}
 }
 o
@@ -1333,7 +1382,7 @@ o
 		}
 		s %Category{"ezPropertyCategory::Member"}
 		Invalid %ConstantValue{}
-		s %Flags{"ezPropertyFlags::StandardType|ezPropertyFlags::Phantom"}
+		s %Flags{"ezPropertyFlags::StandardType"}
 		s %Name{"Rotation"}
 		s %Type{"ezVec3"}
 	}
@@ -1359,7 +1408,7 @@ o
 		{
 			Uuid{u4{18105780118062707531,14391840297266543594}}
 		}
-		s %Flags{"ezTypeFlags::Class|ezTypeFlags::Phantom"}
+		s %Flags{"ezTypeFlags::Class"}
 		VarArray %Functions{}
 		s %ParentTypeName{"ezComponent"}
 		s %PluginName{"ezGameComponentsPlugin"}
@@ -1399,10 +1448,34 @@ o
 }
 o
 {
+	Uuid %id{u4{8468710789677653600,16518566457375063466}}
+	s %t{"ezRequiredAttribute"}
+	u3 %v{1}
+	p{}
+}
+o
+{
 	Uuid %id{u4{16697434455813873164,16670191962934792837}}
 	s %t{"ezExposeColorAlphaAttribute"}
 	u3 %v{1}
 	p{}
+}
+o
+{
+	Uuid %id{u4{14207082430471941233,17000358661146427261}}
+	s %t{"ezReflectedTypeDescriptor"}
+	u3 %v{1}
+	p
+	{
+		VarArray %Attributes{}
+		s %Flags{"ezTypeFlags::Class|ezTypeFlags::Minimal"}
+		VarArray %Functions{}
+		s %ParentTypeName{"ezVisualizerAttribute"}
+		s %PluginName{"Static"}
+		VarArray %Properties{}
+		s %TypeName{"ezSphereVisualizerAttribute"}
+		u3 %TypeVersion{1}
+	}
 }
 o
 {
@@ -1436,7 +1509,7 @@ o
 		}
 		s %Category{"ezPropertyCategory::Member"}
 		Invalid %ConstantValue{}
-		s %Flags{"ezPropertyFlags::StandardType|ezPropertyFlags::Phantom"}
+		s %Flags{"ezPropertyFlags::StandardType"}
 		s %Name{"MaxScale"}
 		s %Type{"float"}
 	}
